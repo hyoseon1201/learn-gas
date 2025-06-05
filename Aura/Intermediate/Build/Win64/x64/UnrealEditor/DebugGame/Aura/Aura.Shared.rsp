@@ -282,6 +282,7 @@
 /I "..\Intermediate\Build\Win64\UnrealEditor\Inc\AnimationEditMode\UHT"
 /I "Editor\AnimationEditMode\Public"
 /I "E:\learn-gas\Aura\Intermediate\Build\Win64\UnrealEditor\Inc\Aura\UHT"
+/I "E:\learn-gas\Aura\Source\Aura"
 /I "E:\learn-gas\Aura\Source"
 /I "..\Plugins\EnhancedInput\Intermediate\Build\Win64\UnrealEditor\Inc\EnhancedInput\UHT"
 /I "..\Plugins\EnhancedInput\Source"

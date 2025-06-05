@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AuraModuleRules")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Development")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+725eb0f8597865f50d92d2d0f45a8a5d9467a3bd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+400b92564e762ba0a59be1bc573c5de94582119d")]
 [assembly: System.Reflection.AssemblyProductAttribute("AuraModuleRules")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AuraModuleRules")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

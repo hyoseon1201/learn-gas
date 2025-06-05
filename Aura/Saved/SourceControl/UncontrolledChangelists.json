@@ -1,0 +1,17 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"E:/learn-gas/Aura/Content/Blueprints/Character/Player/BP_PlayerCharacter.uasset",
+				"E:/learn-gas/Aura/Content/Assets/Characters/Aura/SK_Aura.uasset",
+				"E:/learn-gas/Aura/Content/Blueprints/Character/Enemy/BP_EnemyCharacter.uasset",
+				"E:/learn-gas/Aura/Content/Assets/Enemies/Goblin/SKM_Goblin.uasset",
+				"E:/learn-gas/Aura/Content/Assets/Enemies/Goblin/SK_Goblin.uasset",
+				"E:/learn-gas/Aura/Content/Maps/DevMap.umap"
+			]
+		}
+	]
+}

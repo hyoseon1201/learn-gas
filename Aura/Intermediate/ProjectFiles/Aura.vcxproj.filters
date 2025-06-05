@@ -39,15 +39,15 @@
     <ClInclude Include="..\..\Source\Aura\Aura.h">
       <Filter>Source\Aura</Filter>
     </ClInclude>
-    <ClCompile Include="..\..\Source\Aura\AuraCharacterBase.cpp">
-      <Filter>Source\Aura</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\Aura\AuraCharacterBase.h">
-      <Filter>Source\Aura</Filter>
-    </ClInclude>
     <Filter Include="Source\Aura\Character">
       <UniqueIdentifier>{29861108-78D7-382E-85DC-55497E6FC378}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\Aura\Character\AuraCharacterBase.cpp">
+      <Filter>Source\Aura\Character</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Aura\Character\AuraCharacterBase.h">
+      <Filter>Source\Aura\Character</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\Aura\Character\EnemyCharacter.cpp">
       <Filter>Source\Aura\Character</Filter>
     </ClCompile>
