@@ -1,0 +1,14 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "e:\\learn-gas\\aura\\source\\aura\\aura.cpp",
+        "ProvidedModule": "",
+        "PCH": "e:\\learn-gas\\aura\\intermediate\\build\\win64\\x64\\auraeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "e:\\learn-gas\\aura\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\aura\\definitions.aura.h",
+            "e:\\learn-gas\\aura\\source\\aura\\aura.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
