@@ -60,5 +60,14 @@
     <ClInclude Include="..\..\Source\Aura\Character\PlayerCharacter.h">
       <Filter>Source\Aura\Character</Filter>
     </ClInclude>
+    <Filter Include="Source\Aura\Player">
+      <UniqueIdentifier>{C1A99DE0-4B8F-3E32-8E00-8158038AF9B6}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Aura\Player\AuraPlayerController.cpp">
+      <Filter>Source\Aura\Player</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Aura\Player\AuraPlayerController.h">
+      <Filter>Source\Aura\Player</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

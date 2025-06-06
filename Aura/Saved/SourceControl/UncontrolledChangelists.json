@@ -16,7 +16,9 @@
 				"E:/learn-gas/Aura/Content/Blueprints/Character/Enemy/BP_Goblin_Spear.uasset",
 				"E:/learn-gas/Aura/Content/Blueprints/Character/Enemy/ABP_Goblin_Spear.uasset",
 				"E:/learn-gas/Aura/Content/Blueprints/Character/Enemy/BP_Goblin_Slingshot.uasset",
-				"E:/learn-gas/Aura/Content/Blueprints/Character/Enemy/ABP_Goblin_Slingshot.uasset"
+				"E:/learn-gas/Aura/Content/Blueprints/Character/Enemy/ABP_Goblin_Slingshot.uasset",
+				"E:/learn-gas/Aura/Content/Blueprints/Input/InputActions/IA_Move.uasset",
+				"E:/learn-gas/Aura/Content/Blueprints/Input/IMC_PlayerContext.uasset"
 			]
 		}
 	]
