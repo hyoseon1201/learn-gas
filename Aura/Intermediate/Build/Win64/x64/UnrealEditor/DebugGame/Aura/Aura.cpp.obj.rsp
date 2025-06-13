@@ -1,15 +1,18 @@
-"E:\learn-gas\Aura\Source\Aura\Aura.cpp"
-/FI"E:\learn-gas\Aura\Intermediate\Build\Win64\x64\AuraEditor\DebugGame\UnrealEd\SharedPCH.UnrealEd.Project.NonOptimized.ValApi.Cpp20.h"
-/FI"E:\learn-gas\Aura\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\Aura\Definitions.Aura.h"
-/Yu"E:\learn-gas\Aura\Intermediate\Build\Win64\x64\AuraEditor\DebugGame\UnrealEd\SharedPCH.UnrealEd.Project.NonOptimized.ValApi.Cpp20.h"
-/Fp"E:\learn-gas\Aura\Intermediate\Build\Win64\x64\AuraEditor\DebugGame\UnrealEd\SharedPCH.UnrealEd.Project.NonOptimized.ValApi.Cpp20.h.pch"
-/Fo"E:\learn-gas\Aura\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\Aura\Aura.cpp.obj"
-/sourceDependencies "E:\learn-gas\Aura\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\Aura\Aura.cpp.dep.json"
-@"E:\learn-gas\Aura\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\Aura\Aura.Shared.rsp"
+"E:/learn-gas/Aura/Source/Aura/Aura.cpp"
+@"E:/learn-gas/Aura/Intermediate/Build/Win64/x64/UnrealEditor/DebugGame/Aura/Aura.Shared.rsp"
+/FI"E:/learn-gas/Aura/Intermediate/Build/Win64/x64/AuraEditor/DebugGame/UnrealEd/SharedPCH.UnrealEd.Project.NonOptimized.ValApi.ValExpApi.Cpp20.h"
+/FI"E:/learn-gas/Aura/Intermediate/Build/Win64/x64/UnrealEditor/DebugGame/Aura/Definitions.Aura.h"
+/Yu"E:/learn-gas/Aura/Intermediate/Build/Win64/x64/AuraEditor/DebugGame/UnrealEd/SharedPCH.UnrealEd.Project.NonOptimized.ValApi.ValExpApi.Cpp20.h"
+/Fp"E:/learn-gas/Aura/Intermediate/Build/Win64/x64/AuraEditor/DebugGame/UnrealEd/SharedPCH.UnrealEd.Project.NonOptimized.ValApi.ValExpApi.Cpp20.h.pch"
+/Fo"E:/learn-gas/Aura/Intermediate/Build/Win64/x64/UnrealEditor/DebugGame/Aura/Aura.cpp.obj"
+/experimental:log "E:/learn-gas/Aura/Intermediate/Build/Win64/x64/UnrealEditor/DebugGame/Aura/Aura.cpp.sarif"
+/sourceDependencies "E:/learn-gas/Aura/Intermediate/Build/Win64/x64/UnrealEditor/DebugGame/Aura/Aura.cpp.dep.json"
+/d2ssa-cfg-question-
 /Zc:inline
 /nologo
 /Oi
 /FC
+/diagnostics:caret
 /c
 /Gw
 /Gy
@@ -34,15 +37,14 @@
 /bigobj
 /fp:fast
 /Zp8
+/W4
 /we4456
 /we4458
 /we4459
-/we4668
 /wd4244
 /wd4838
 /TP
 /GR-
-/W4
 /std:c++20
 /Zc:preprocessor
 /wd5054

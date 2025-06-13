@@ -1,0 +1,14 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "e:\\learn-gas\\aura\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\aura\\permoduleinline.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "e:\\learn-gas\\aura\\intermediate\\build\\win64\\x64\\auraeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.h.pch",
+        "Includes": [
+            "e:\\learn-gas\\aura\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\aura\\definitions.aura.h",
+            "e:\\ue_5.6\\engine\\source\\runtime\\core\\public\\hal\\permoduleinline.inl"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

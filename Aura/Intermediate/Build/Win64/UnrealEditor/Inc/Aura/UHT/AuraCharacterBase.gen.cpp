@@ -6,25 +6,51 @@
 
 #include "UObject/GeneratedCppIncludes.h"
 #include "Aura/Character/AuraCharacterBase.h"
+
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+
 void EmptyLinkFunctionForGeneratedCodeAuraCharacterBase() {}
 
-// Begin Cross Module References
+// ********** Begin Cross Module References ********************************************************
 AURA_API UClass* Z_Construct_UClass_AAuraCharacterBase();
 AURA_API UClass* Z_Construct_UClass_AAuraCharacterBase_NoRegister();
 ENGINE_API UClass* Z_Construct_UClass_ACharacter();
 ENGINE_API UClass* Z_Construct_UClass_USkeletalMeshComponent_NoRegister();
 UPackage* Z_Construct_UPackage__Script_Aura();
-// End Cross Module References
+// ********** End Cross Module References **********************************************************
 
-// Begin Class AAuraCharacterBase
+// ********** Begin Class AAuraCharacterBase *******************************************************
 void AAuraCharacterBase::StaticRegisterNativesAAuraCharacterBase()
 {
 }
-IMPLEMENT_CLASS_NO_AUTO_REGISTRATION(AAuraCharacterBase);
+FClassRegistrationInfo Z_Registration_Info_UClass_AAuraCharacterBase;
+UClass* AAuraCharacterBase::GetPrivateStaticClass()
+{
+	using TClass = AAuraCharacterBase;
+	if (!Z_Registration_Info_UClass_AAuraCharacterBase.InnerSingleton)
+	{
+		GetPrivateStaticClassBody(
+			StaticPackage(),
+			TEXT("AuraCharacterBase"),
+			Z_Registration_Info_UClass_AAuraCharacterBase.InnerSingleton,
+			StaticRegisterNativesAAuraCharacterBase,
+			sizeof(TClass),
+			alignof(TClass),
+			TClass::StaticClassFlags,
+			TClass::StaticClassCastFlags(),
+			TClass::StaticConfigName(),
+			(UClass::ClassConstructorType)InternalConstructor<TClass>,
+			(UClass::ClassVTableHelperCtorCallerType)InternalVTableHelperCtorCaller<TClass>,
+			UOBJECT_CPPCLASS_STATICFUNCTIONS_FORCLASS(TClass),
+			&TClass::Super::StaticClass,
+			&TClass::WithinClass::StaticClass
+		);
+	}
+	return Z_Registration_Info_UClass_AAuraCharacterBase.InnerSingleton;
+}
 UClass* Z_Construct_UClass_AAuraCharacterBase_NoRegister()
 {
-	return AAuraCharacterBase::StaticClass();
+	return AAuraCharacterBase::GetPrivateStaticClass();
 }
 struct Z_Construct_UClass_AAuraCharacterBase_Statics
 {
@@ -70,7 +96,7 @@ const UECodeGen_Private::FClassParams Z_Construct_UClass_AAuraCharacterBase_Stat
 	0,
 	UE_ARRAY_COUNT(Z_Construct_UClass_AAuraCharacterBase_Statics::PropPointers),
 	0,
-	0x009000A5u,
+	0x009001A5u,
 	METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_AAuraCharacterBase_Statics::Class_MetaDataParams), Z_Construct_UClass_AAuraCharacterBase_Statics::Class_MetaDataParams)
 };
 UClass* Z_Construct_UClass_AAuraCharacterBase()
@@ -81,24 +107,21 @@ UClass* Z_Construct_UClass_AAuraCharacterBase()
 	}
 	return Z_Registration_Info_UClass_AAuraCharacterBase.OuterSingleton;
 }
-template<> AURA_API UClass* StaticClass<AAuraCharacterBase>()
-{
-	return AAuraCharacterBase::StaticClass();
-}
 DEFINE_VTABLE_PTR_HELPER_CTOR(AAuraCharacterBase);
 AAuraCharacterBase::~AAuraCharacterBase() {}
-// End Class AAuraCharacterBase
+// ********** End Class AAuraCharacterBase *********************************************************
 
-// Begin Registration
-struct Z_CompiledInDeferFile_FID_learn_gas_Aura_Source_Aura_Character_AuraCharacterBase_h_Statics
+// ********** Begin Registration *******************************************************************
+struct Z_CompiledInDeferFile_FID_learn_gas_Aura_Source_Aura_Character_AuraCharacterBase_h__Script_Aura_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_AAuraCharacterBase, AAuraCharacterBase::StaticClass, TEXT("AAuraCharacterBase"), &Z_Registration_Info_UClass_AAuraCharacterBase, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AAuraCharacterBase), 2080457528U) },
+		{ Z_Construct_UClass_AAuraCharacterBase, AAuraCharacterBase::StaticClass, TEXT("AAuraCharacterBase"), &Z_Registration_Info_UClass_AAuraCharacterBase, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AAuraCharacterBase), 3574575994U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_learn_gas_Aura_Source_Aura_Character_AuraCharacterBase_h_363442952(TEXT("/Script/Aura"),
-	Z_CompiledInDeferFile_FID_learn_gas_Aura_Source_Aura_Character_AuraCharacterBase_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_learn_gas_Aura_Source_Aura_Character_AuraCharacterBase_h_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_learn_gas_Aura_Source_Aura_Character_AuraCharacterBase_h__Script_Aura_3863503975(TEXT("/Script/Aura"),
+	Z_CompiledInDeferFile_FID_learn_gas_Aura_Source_Aura_Character_AuraCharacterBase_h__Script_Aura_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_learn_gas_Aura_Source_Aura_Character_AuraCharacterBase_h__Script_Aura_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
-// End Registration
+// ********** End Registration *********************************************************************
+
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

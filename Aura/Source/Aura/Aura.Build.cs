@@ -9,9 +9,9 @@ public class Aura : ModuleRules
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 
         PublicIncludePaths.AddRange(new string[]
-        {
-            "Aura"
-        });
+		{
+			"Aura"
+		});
 
         PublicDependencyModuleNames.AddRange(new string[] { 
 			"Core", 

@@ -6,7 +6,8 @@
 /NAME:"UnrealEditor-Aura.dll"
 /IGNORE:4221
 /NODEFAULTLIB
-"E:\learn-gas\Aura\Intermediate\Build\Win64\x64\AuraEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h.obj"
-"E:\learn-gas\Aura\Intermediate\Build\Win64\x64\UnrealEditor\Development\Aura\Aura.cpp.obj"
-"E:\learn-gas\Aura\Intermediate\Build\Win64\x64\UnrealEditor\Development\Aura\Default.rc2.res"
-/OUT:"E:\learn-gas\Aura\Intermediate\Build\Win64\x64\UnrealEditor\Development\Aura\UnrealEditor-Aura.lib"
+"E:/learn-gas/Aura/Intermediate/Build/Win64/x64/AuraEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.h.obj"
+"E:/learn-gas/Aura/Intermediate/Build/Win64/x64/UnrealEditor/Development/Aura/Aura.cpp.obj"
+"E:/learn-gas/Aura/Intermediate/Build/Win64/x64/UnrealEditor/Development/Aura/PerModuleInline.gen.cpp.obj"
+"E:/learn-gas/Aura/Intermediate/Build/Win64/x64/UnrealEditor/Development/Aura/Default.rc2.res"
+/OUT:"E:/learn-gas/Aura/Intermediate/Build/Win64/x64/UnrealEditor/Development/Aura/UnrealEditor-Aura.lib"

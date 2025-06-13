@@ -5,20 +5,9 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
-				"E:/learn-gas/Aura/Content/Blueprints/Character/Player/BP_PlayerCharacter.uasset",
-				"E:/learn-gas/Aura/Content/Assets/Characters/Aura/SK_Aura.uasset",
-				"E:/learn-gas/Aura/Content/Blueprints/Character/Enemy/BP_EnemyCharacter.uasset",
-				"E:/learn-gas/Aura/Content/Assets/Enemies/Goblin/SKM_Goblin.uasset",
-				"E:/learn-gas/Aura/Content/Assets/Enemies/Goblin/SK_Goblin.uasset",
-				"E:/learn-gas/Aura/Content/Maps/DevMap.umap",
-				"E:/learn-gas/Aura/Content/Blueprints/Character/Player/ABP_Player.uasset",
-				"E:/learn-gas/Aura/Content/Blueprints/Character/ABP_Enemy.uasset",
-				"E:/learn-gas/Aura/Content/Blueprints/Character/Enemy/BP_Goblin_Spear.uasset",
-				"E:/learn-gas/Aura/Content/Blueprints/Character/Enemy/ABP_Goblin_Spear.uasset",
-				"E:/learn-gas/Aura/Content/Blueprints/Character/Enemy/BP_Goblin_Slingshot.uasset",
-				"E:/learn-gas/Aura/Content/Blueprints/Character/Enemy/ABP_Goblin_Slingshot.uasset",
-				"E:/learn-gas/Aura/Content/Blueprints/Input/InputActions/IA_Move.uasset",
-				"E:/learn-gas/Aura/Content/Blueprints/Input/IMC_PlayerContext.uasset"
+				"E:/learn-gas/Aura/Content/Maps/StartupMap.umap",
+				"E:/learn-gas/Aura/Content/Blueprints/Character/Aura/BP_AuraCharacter.uasset",
+				"E:/learn-gas/Aura/Content/Assets/Characters/Aura/SK_Aura.uasset"
 			]
 		}
 	]

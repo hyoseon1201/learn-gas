@@ -42,32 +42,23 @@
     <Filter Include="Source\Aura\Character">
       <UniqueIdentifier>{29861108-78D7-382E-85DC-55497E6FC378}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\Aura\Character\AuraCharacter.cpp">
+      <Filter>Source\Aura\Character</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Aura\Character\AuraCharacter.h">
+      <Filter>Source\Aura\Character</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\Aura\Character\AuraCharacterBase.cpp">
       <Filter>Source\Aura\Character</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\Aura\Character\AuraCharacterBase.h">
       <Filter>Source\Aura\Character</Filter>
     </ClInclude>
-    <ClCompile Include="..\..\Source\Aura\Character\EnemyCharacter.cpp">
+    <ClCompile Include="..\..\Source\Aura\Character\AuraEnemy.cpp">
       <Filter>Source\Aura\Character</Filter>
     </ClCompile>
-    <ClInclude Include="..\..\Source\Aura\Character\EnemyCharacter.h">
+    <ClInclude Include="..\..\Source\Aura\Character\AuraEnemy.h">
       <Filter>Source\Aura\Character</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\Aura\Character\PlayerCharacter.cpp">
-      <Filter>Source\Aura\Character</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\Aura\Character\PlayerCharacter.h">
-      <Filter>Source\Aura\Character</Filter>
-    </ClInclude>
-    <Filter Include="Source\Aura\Player">
-      <UniqueIdentifier>{C1A99DE0-4B8F-3E32-8E00-8158038AF9B6}</UniqueIdentifier>
-    </Filter>
-    <ClCompile Include="..\..\Source\Aura\Player\AuraPlayerController.cpp">
-      <Filter>Source\Aura\Player</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\Aura\Player\AuraPlayerController.h">
-      <Filter>Source\Aura\Player</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
