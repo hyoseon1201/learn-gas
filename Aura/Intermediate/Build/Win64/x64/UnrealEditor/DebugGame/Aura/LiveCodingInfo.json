@@ -2,10 +2,12 @@
 	"RemapUnityFiles": 
 	{
 		"Module.Aura.gen.cpp.obj": [
+			"AuraCharacterBase.gen.cpp.obj",
+			"AuraEnemy.gen.cpp.obj",
 			"Aura.init.gen.cpp.obj",
 			"AuraCharacter.gen.cpp.obj",
-			"AuraCharacterBase.gen.cpp.obj",
-			"AuraEnemy.gen.cpp.obj"
+			"AuraGameModeBase.gen.cpp.obj",
+			"AuraPlayerController.gen.cpp.obj"
 		]
 	}
 }

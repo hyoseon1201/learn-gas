@@ -97,7 +97,6 @@ UClass* Z_Construct_UClass_AAuraCharacter()
 	}
 	return Z_Registration_Info_UClass_AAuraCharacter.OuterSingleton;
 }
-AAuraCharacter::AAuraCharacter() {}
 DEFINE_VTABLE_PTR_HELPER_CTOR(AAuraCharacter);
 AAuraCharacter::~AAuraCharacter() {}
 // ********** End Class AAuraCharacter *************************************************************
