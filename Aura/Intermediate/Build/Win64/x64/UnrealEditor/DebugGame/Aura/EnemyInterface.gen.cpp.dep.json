@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "e:\\learn-gas\\aura\\intermediate\\build\\win64\\unrealeditor\\inc\\aura\\uht\\enemyinterface.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "e:\\learn-gas\\aura\\intermediate\\build\\win64\\x64\\auraeditor\\debuggame\\unrealed\\sharedpch.unrealed.project.nonoptimized.valapi.valexpapi.cpp20.h.pch",
+        "Includes": [
+            "e:\\learn-gas\\aura\\intermediate\\build\\win64\\x64\\unrealeditor\\debuggame\\aura\\definitions.aura.h",
+            "e:\\learn-gas\\aura\\source\\aura\\interaction\\enemyinterface.h",
+            "e:\\learn-gas\\aura\\intermediate\\build\\win64\\unrealeditor\\inc\\aura\\uht\\enemyinterface.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

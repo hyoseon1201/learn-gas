@@ -69,6 +69,15 @@
     <ClInclude Include="..\..\Source\Aura\Game\AuraGameModeBase.h">
       <Filter>Source\Aura\Game</Filter>
     </ClInclude>
+    <Filter Include="Source\Aura\Interaction">
+      <UniqueIdentifier>{BEA6B76F-F4B5-3637-9595-09E211017C0D}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Aura\Interaction\EnemyInterface.cpp">
+      <Filter>Source\Aura\Interaction</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Aura\Interaction\EnemyInterface.h">
+      <Filter>Source\Aura\Interaction</Filter>
+    </ClInclude>
     <Filter Include="Source\Aura\Player">
       <UniqueIdentifier>{C1A99DE0-4B8F-3E32-8E00-8158038AF9B6}</UniqueIdentifier>
     </Filter>
