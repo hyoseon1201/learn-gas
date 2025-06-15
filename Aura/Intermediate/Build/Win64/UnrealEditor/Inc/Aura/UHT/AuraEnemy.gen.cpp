@@ -102,7 +102,6 @@ UClass* Z_Construct_UClass_AAuraEnemy()
 	}
 	return Z_Registration_Info_UClass_AAuraEnemy.OuterSingleton;
 }
-AAuraEnemy::AAuraEnemy() {}
 DEFINE_VTABLE_PTR_HELPER_CTOR(AAuraEnemy);
 AAuraEnemy::~AAuraEnemy() {}
 // ********** End Class AAuraEnemy *****************************************************************

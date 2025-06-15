@@ -19,6 +19,7 @@
 				"E:/learn-gas/Aura/Content/Blueprints/Input/IMC_AuraContext.uasset",
 				"E:/learn-gas/Aura/Content/Blueprints/Player/BP_AuraPlayerController.uasset",
 				"E:/learn-gas/Aura/Content/Blueprints/Game/BP_AuraGameMode.uasset",
+				"E:/learn-gas/Aura/Content/Blueprints/Character/BP_EnemyBase.uasset",
 				"E:/learn-gas/Aura/Content/Blueprints/BP_AuraPlayerController.uasset"
 			]
 		}

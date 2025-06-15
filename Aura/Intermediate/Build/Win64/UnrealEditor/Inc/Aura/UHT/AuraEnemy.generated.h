@@ -32,8 +32,6 @@ public: \
 
 
 #define FID_learn_gas_Aura_Source_Aura_Character_AuraEnemy_h_14_ENHANCED_CONSTRUCTORS \
-	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API AAuraEnemy(); \
 	/** Deleted move- and copy-constructors, should never be used */ \
 	AAuraEnemy(AAuraEnemy&&) = delete; \
 	AAuraEnemy(const AAuraEnemy&) = delete; \
