@@ -54,6 +54,15 @@
     <ClInclude Include="..\..\Source\Aura\AbilitySystem\AuraAttributeSet.h">
       <Filter>Source\Aura\AbilitySystem</Filter>
     </ClInclude>
+    <Filter Include="Source\Aura\Actor">
+      <UniqueIdentifier>{1BB53451-9C24-3E6D-BD8F-B5FA1A466971}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Aura\Actor\AuraEffectActor.cpp">
+      <Filter>Source\Aura\Actor</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Aura\Actor\AuraEffectActor.h">
+      <Filter>Source\Aura\Actor</Filter>
+    </ClInclude>
     <Filter Include="Source\Aura\Character">
       <UniqueIdentifier>{29861108-78D7-382E-85DC-55497E6FC378}</UniqueIdentifier>
     </Filter>
@@ -107,6 +116,27 @@
     </ClCompile>
     <ClInclude Include="..\..\Source\Aura\Player\AuraPlayerState.h">
       <Filter>Source\Aura\Player</Filter>
+    </ClInclude>
+    <Filter Include="Source\Aura\UI">
+      <UniqueIdentifier>{C524376B-BB1E-3A2D-9F50-57604DAC8D0D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Aura\UI\Widget">
+      <UniqueIdentifier>{4A0B4F9E-DA0F-3CE8-AF65-BBC3A6EE3B3E}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Aura\UI\Widget\AuraUserWidget.cpp">
+      <Filter>Source\Aura\UI\Widget</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Aura\UI\Widget\AuraUserWidget.h">
+      <Filter>Source\Aura\UI\Widget</Filter>
+    </ClInclude>
+    <Filter Include="Source\Aura\UI\WidgetController">
+      <UniqueIdentifier>{9ABADDEC-4649-3AF2-91B0-90E8872658B6}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Aura\UI\WidgetController\AuraWidgetController.cpp">
+      <Filter>Source\Aura\UI\WidgetController</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Aura\UI\WidgetController\AuraWidgetController.h">
+      <Filter>Source\Aura\UI\WidgetController</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

@@ -21,6 +21,8 @@
 				"E:/learn-gas/Aura/Content/Blueprints/Game/BP_AuraGameMode.uasset",
 				"E:/learn-gas/Aura/Content/Blueprints/Character/BP_EnemyBase.uasset",
 				"E:/learn-gas/Aura/Content/Blueprints/Player/BP_AuraPlayerState.uasset",
+				"E:/learn-gas/Aura/Content/Blueprints/BP_HealthPotion.uasset",
+				"E:/learn-gas/Aura/Content/Blueprints/Actor/BP_HealthPotion.uasset",
 				"E:/learn-gas/Aura/Content/Blueprints/BP_AuraPlayerController.uasset"
 			]
 		}

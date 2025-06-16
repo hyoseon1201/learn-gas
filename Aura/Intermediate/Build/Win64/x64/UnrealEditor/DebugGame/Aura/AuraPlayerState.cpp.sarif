@@ -19,7 +19,7 @@
                                     "uri": "file:///E:/learn-gas/Aura/Source/Aura/Player/AuraPlayerState.cpp"
                                 },
                                 "region": {
-                                    "startLine": 7,
+                                    "startLine": 14,
                                     "startColumn": 2,
                                     "snippet": {
                                         "text": "\tNetUpdateFrequency = 100.f;"
