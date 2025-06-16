@@ -27,6 +27,7 @@
 				"E:/learn-gas/Aura/Content/Blueprints/UI/Overlay/WBP_Overlay.uasset",
 				"E:/learn-gas/Aura/Content/Blueprints/UI/ProgressBar/WBP_ManaGlobe.uasset",
 				"E:/learn-gas/Aura/Content/Blueprints/UI/HUD/BP_AuraHUD.uasset",
+				"E:/learn-gas/Aura/Content/Blueprints/UI/WidgetController/BP_OverlayWidgetController.uasset",
 				"E:/learn-gas/Aura/Content/Blueprints/BP_HealthPotion.uasset",
 				"E:/learn-gas/Aura/Content/Blueprints/BP_AuraPlayerController.uasset"
 			]
