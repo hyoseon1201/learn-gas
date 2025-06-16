@@ -61,4 +61,11 @@ private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-class UAuraUserWi
+class UAuraUserWidget;
+
+// ********** End Class UAuraUserWidget ************************************************************
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID FID_learn_gas_Aura_Source_Aura_UI_Widget_AuraUserWidget_h
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

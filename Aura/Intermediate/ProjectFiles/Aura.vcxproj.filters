@@ -120,6 +120,15 @@
     <Filter Include="Source\Aura\UI">
       <UniqueIdentifier>{C524376B-BB1E-3A2D-9F50-57604DAC8D0D}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source\Aura\UI\HUD">
+      <UniqueIdentifier>{C746C532-B044-33D6-97BF-921BF5CDEDBD}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Aura\UI\HUD\AuraHUD.cpp">
+      <Filter>Source\Aura\UI\HUD</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Aura\UI\HUD\AuraHUD.h">
+      <Filter>Source\Aura\UI\HUD</Filter>
+    </ClInclude>
     <Filter Include="Source\Aura\UI\Widget">
       <UniqueIdentifier>{4A0B4F9E-DA0F-3CE8-AF65-BBC3A6EE3B3E}</UniqueIdentifier>
     </Filter>
@@ -136,6 +145,12 @@
       <Filter>Source\Aura\UI\WidgetController</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\Aura\UI\WidgetController\AuraWidgetController.h">
+      <Filter>Source\Aura\UI\WidgetController</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Aura\UI\WidgetController\OverlayWidgetController.cpp">
+      <Filter>Source\Aura\UI\WidgetController</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Aura\UI\WidgetController\OverlayWidgetController.h">
       <Filter>Source\Aura\UI\WidgetController</Filter>
     </ClInclude>
   </ItemGroup>

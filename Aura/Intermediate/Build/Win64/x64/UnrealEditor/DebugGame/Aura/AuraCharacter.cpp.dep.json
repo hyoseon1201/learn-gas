@@ -98,7 +98,16 @@
             "e:\\ue_5.6\\engine\\plugins\\runtime\\gameplayabilities\\source\\gameplayabilities\\public\\abilitysystemreplicationproxyinterface.h",
             "e:\\ue_5.6\\engine\\plugins\\runtime\\gameplayabilities\\intermediate\\build\\win64\\unrealeditor\\inc\\gameplayabilities\\uht\\abilitysystemreplicationproxyinterface.generated.h",
             "e:\\ue_5.6\\engine\\plugins\\runtime\\gameplayabilities\\intermediate\\build\\win64\\unrealeditor\\inc\\gameplayabilities\\uht\\abilitysystemcomponent.generated.h",
-            "e:\\learn-gas\\aura\\intermediate\\build\\win64\\unrealeditor\\inc\\aura\\uht\\auraabilitysystemcomponent.generated.h"
+            "e:\\learn-gas\\aura\\intermediate\\build\\win64\\unrealeditor\\inc\\aura\\uht\\auraabilitysystemcomponent.generated.h",
+            "e:\\learn-gas\\aura\\source\\aura\\player\\auraplayercontroller.h",
+            "e:\\learn-gas\\aura\\intermediate\\build\\win64\\unrealeditor\\inc\\aura\\uht\\auraplayercontroller.generated.h",
+            "e:\\learn-gas\\aura\\source\\aura\\ui\\hud\\aurahud.h",
+            "e:\\ue_5.6\\engine\\source\\runtime\\engine\\classes\\gameframework\\hud.h",
+            "e:\\ue_5.6\\engine\\source\\runtime\\engine\\classes\\gameframework\\hudhitbox.h",
+            "e:\\ue_5.6\\engine\\source\\runtime\\engine\\classes\\gameframework\\debugtextinfo.h",
+            "e:\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\debugtextinfo.generated.h",
+            "e:\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\hud.generated.h",
+            "e:\\learn-gas\\aura\\intermediate\\build\\win64\\unrealeditor\\inc\\aura\\uht\\aurahud.generated.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []
