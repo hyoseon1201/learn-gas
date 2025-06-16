@@ -67,7 +67,11 @@
             "e:\\ue_5.6\\engine\\plugins\\runtime\\gameplayabilities\\intermediate\\build\\win64\\unrealeditor\\inc\\gameplayabilities\\uht\\abilitysystemreplicationproxyinterface.generated.h",
             "e:\\ue_5.6\\engine\\plugins\\runtime\\gameplayabilities\\intermediate\\build\\win64\\unrealeditor\\inc\\gameplayabilities\\uht\\abilitysystemcomponent.generated.h",
             "e:\\learn-gas\\aura\\source\\aura\\abilitysystem\\auraattributeset.h",
-            "e:\\learn-gas\\aura\\intermediate\\build\\win64\\unrealeditor\\inc\\aura\\uht\\auraattributeset.generated.h"
+            "e:\\learn-gas\\aura\\intermediate\\build\\win64\\unrealeditor\\inc\\aura\\uht\\auraattributeset.generated.h",
+            "e:\\ue_5.6\\engine\\plugins\\runtime\\gameplayabilities\\source\\gameplayabilities\\public\\abilitysystemblueprintlibrary.h",
+            "e:\\ue_5.6\\engine\\plugins\\runtime\\gameplayabilities\\source\\gameplayabilities\\public\\abilities\\gameplayabilitytargetdatafilter.h",
+            "e:\\ue_5.6\\engine\\plugins\\runtime\\gameplayabilities\\intermediate\\build\\win64\\unrealeditor\\inc\\gameplayabilities\\uht\\gameplayabilitytargetdatafilter.generated.h",
+            "e:\\ue_5.6\\engine\\plugins\\runtime\\gameplayabilities\\intermediate\\build\\win64\\unrealeditor\\inc\\gameplayabilities\\uht\\abilitysystemblueprintlibrary.generated.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

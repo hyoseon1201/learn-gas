@@ -17,13 +17,11 @@
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 class AActor;
-class UPrimitiveComponent;
-struct FHitResult;
+class UGameplayEffect;
 
 // ********** Begin Class AAuraEffectActor *********************************************************
 #define FID_learn_gas_Aura_Source_Aura_Actor_AuraEffectActor_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
-	DECLARE_FUNCTION(execEndOverlap); \
-	DECLARE_FUNCTION(execOnOverlap);
+	DECLARE_FUNCTION(execApplyEffectToTarget);
 
 
 AURA_API UClass* Z_Construct_UClass_AAuraEffectActor_NoRegister();
