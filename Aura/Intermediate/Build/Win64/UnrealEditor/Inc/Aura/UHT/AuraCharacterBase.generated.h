@@ -19,7 +19,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 // ********** Begin Class AAuraCharacterBase *******************************************************
 AURA_API UClass* Z_Construct_UClass_AAuraCharacterBase_NoRegister();
 
-#define FID_learn_gas_Aura_Source_Aura_Character_AuraCharacterBase_h_10_INCLASS_NO_PURE_DECLS \
+#define FID_learn_gas_Aura_Source_Aura_Character_AuraCharacterBase_h_14_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAAuraCharacterBase(); \
 	friend struct Z_Construct_UClass_AAuraCharacterBase_Statics; \
@@ -27,10 +27,11 @@ private: \
 	friend AURA_API UClass* Z_Construct_UClass_AAuraCharacterBase_NoRegister(); \
 public: \
 	DECLARE_CLASS2(AAuraCharacterBase, ACharacter, COMPILED_IN_FLAGS(CLASS_Abstract | CLASS_Config), CASTCLASS_None, TEXT("/Script/Aura"), Z_Construct_UClass_AAuraCharacterBase_NoRegister) \
-	DECLARE_SERIALIZER(AAuraCharacterBase)
+	DECLARE_SERIALIZER(AAuraCharacterBase) \
+	virtual UObject* _getUObject() const override { return const_cast<AAuraCharacterBase*>(this); }
 
 
-#define FID_learn_gas_Aura_Source_Aura_Character_AuraCharacterBase_h_10_ENHANCED_CONSTRUCTORS \
+#define FID_learn_gas_Aura_Source_Aura_Character_AuraCharacterBase_h_14_ENHANCED_CONSTRUCTORS \
 	/** Deleted move- and copy-constructors, should never be used */ \
 	AAuraCharacterBase(AAuraCharacterBase&&) = delete; \
 	AAuraCharacterBase(const AAuraCharacterBase&) = delete; \
@@ -40,12 +41,12 @@ public: \
 	NO_API virtual ~AAuraCharacterBase();
 
 
-#define FID_learn_gas_Aura_Source_Aura_Character_AuraCharacterBase_h_7_PROLOG
-#define FID_learn_gas_Aura_Source_Aura_Character_AuraCharacterBase_h_10_GENERATED_BODY \
+#define FID_learn_gas_Aura_Source_Aura_Character_AuraCharacterBase_h_11_PROLOG
+#define FID_learn_gas_Aura_Source_Aura_Character_AuraCharacterBase_h_14_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_learn_gas_Aura_Source_Aura_Character_AuraCharacterBase_h_10_INCLASS_NO_PURE_DECLS \
-	FID_learn_gas_Aura_Source_Aura_Character_AuraCharacterBase_h_10_ENHANCED_CONSTRUCTORS \
+	FID_learn_gas_Aura_Source_Aura_Character_AuraCharacterBase_h_14_INCLASS_NO_PURE_DECLS \
+	FID_learn_gas_Aura_Source_Aura_Character_AuraCharacterBase_h_14_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

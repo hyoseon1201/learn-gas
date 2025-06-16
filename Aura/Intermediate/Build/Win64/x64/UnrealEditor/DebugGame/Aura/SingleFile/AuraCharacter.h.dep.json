@@ -752,6 +752,8 @@
             "e:\\ue_5.6\\engine\\source\\runtime\\engine\\classes\\gameframework\\rootmotionsource.h",
             "e:\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\rootmotionsource.generated.h",
             "e:\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\character.generated.h",
+            "e:\\ue_5.6\\engine\\plugins\\runtime\\gameplayabilities\\source\\gameplayabilities\\public\\abilitysysteminterface.h",
+            "e:\\ue_5.6\\engine\\plugins\\runtime\\gameplayabilities\\intermediate\\build\\win64\\unrealeditor\\inc\\gameplayabilities\\uht\\abilitysysteminterface.generated.h",
             "e:\\learn-gas\\aura\\intermediate\\build\\win64\\unrealeditor\\inc\\aura\\uht\\auracharacterbase.generated.h",
             "e:\\learn-gas\\aura\\intermediate\\build\\win64\\unrealeditor\\inc\\aura\\uht\\auracharacter.generated.h"
         ],

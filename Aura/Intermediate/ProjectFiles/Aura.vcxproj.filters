@@ -39,6 +39,21 @@
     <ClInclude Include="..\..\Source\Aura\Aura.h">
       <Filter>Source\Aura</Filter>
     </ClInclude>
+    <Filter Include="Source\Aura\AbilitySystem">
+      <UniqueIdentifier>{98F1A1CF-63E1-3B4D-A720-772F837858E2}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Aura\AbilitySystem\AuraAbilitySystemComponent.cpp">
+      <Filter>Source\Aura\AbilitySystem</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Aura\AbilitySystem\AuraAbilitySystemComponent.h">
+      <Filter>Source\Aura\AbilitySystem</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Aura\AbilitySystem\AuraAttributeSet.cpp">
+      <Filter>Source\Aura\AbilitySystem</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Aura\AbilitySystem\AuraAttributeSet.h">
+      <Filter>Source\Aura\AbilitySystem</Filter>
+    </ClInclude>
     <Filter Include="Source\Aura\Character">
       <UniqueIdentifier>{29861108-78D7-382E-85DC-55497E6FC378}</UniqueIdentifier>
     </Filter>
@@ -85,6 +100,12 @@
       <Filter>Source\Aura\Player</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\Aura\Player\AuraPlayerController.h">
+      <Filter>Source\Aura\Player</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Aura\Player\AuraPlayerState.cpp">
+      <Filter>Source\Aura\Player</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Aura\Player\AuraPlayerState.h">
       <Filter>Source\Aura\Player</Filter>
     </ClInclude>
   </ItemGroup>

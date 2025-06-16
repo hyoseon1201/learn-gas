@@ -6,7 +6,11 @@
         "PCH": "e:\\learn-gas\\aura\\intermediate\\build\\win64\\x64\\auraeditor\\debuggame\\unrealed\\sharedpch.unrealed.project.nonoptimized.valapi.valexpapi.cpp20.h.pch",
         "Includes": [
             "e:\\learn-gas\\aura\\intermediate\\build\\win64\\x64\\unrealeditor\\debuggame\\aura\\definitions.aura.h",
-            "e:\\learn-gas\\aura\\intermediate\\build\\win64\\unrealeditor\\inc\\aura\\uht\\aura.init.gen.cpp",
+            "e:\\learn-gas\\aura\\intermediate\\build\\win64\\unrealeditor\\inc\\aura\\uht\\auraattributeset.gen.cpp",
+            "e:\\learn-gas\\aura\\source\\aura\\abilitysystem\\auraattributeset.h",
+            "e:\\ue_5.6\\engine\\plugins\\runtime\\gameplayabilities\\source\\gameplayabilities\\public\\attributeset.h",
+            "e:\\ue_5.6\\engine\\plugins\\runtime\\gameplayabilities\\intermediate\\build\\win64\\unrealeditor\\inc\\gameplayabilities\\uht\\attributeset.generated.h",
+            "e:\\learn-gas\\aura\\intermediate\\build\\win64\\unrealeditor\\inc\\aura\\uht\\auraattributeset.generated.h",
             "e:\\learn-gas\\aura\\intermediate\\build\\win64\\unrealeditor\\inc\\aura\\uht\\auracharacter.gen.cpp",
             "e:\\learn-gas\\aura\\source\\aura\\character\\auracharacter.h",
             "e:\\learn-gas\\aura\\source\\aura\\character\\auracharacterbase.h",
@@ -24,6 +28,8 @@
             "e:\\learn-gas\\aura\\intermediate\\build\\win64\\unrealeditor\\inc\\aura\\uht\\auracharacterbase.gen.cpp",
             "e:\\learn-gas\\aura\\intermediate\\build\\win64\\unrealeditor\\inc\\aura\\uht\\auraenemy.gen.cpp",
             "e:\\learn-gas\\aura\\source\\aura\\character\\auraenemy.h",
+            "e:\\learn-gas\\aura\\source\\aura\\interaction\\enemyinterface.h",
+            "e:\\learn-gas\\aura\\intermediate\\build\\win64\\unrealeditor\\inc\\aura\\uht\\enemyinterface.generated.h",
             "e:\\learn-gas\\aura\\intermediate\\build\\win64\\unrealeditor\\inc\\aura\\uht\\auraenemy.generated.h",
             "e:\\learn-gas\\aura\\intermediate\\build\\win64\\unrealeditor\\inc\\aura\\uht\\auragamemodebase.gen.cpp",
             "e:\\learn-gas\\aura\\source\\aura\\game\\auragamemodebase.h",
@@ -35,9 +41,7 @@
             "e:\\learn-gas\\aura\\intermediate\\build\\win64\\unrealeditor\\inc\\aura\\uht\\auraplayercontroller.gen.cpp",
             "e:\\learn-gas\\aura\\source\\aura\\player\\auraplayercontroller.h",
             "e:\\learn-gas\\aura\\intermediate\\build\\win64\\unrealeditor\\inc\\aura\\uht\\auraplayercontroller.generated.h",
-            "e:\\learn-gas\\aura\\intermediate\\build\\win64\\unrealeditor\\inc\\aura\\uht\\enemyinterface.gen.cpp",
-            "e:\\learn-gas\\aura\\source\\aura\\interaction\\enemyinterface.h",
-            "e:\\learn-gas\\aura\\intermediate\\build\\win64\\unrealeditor\\inc\\aura\\uht\\enemyinterface.generated.h"
+            "e:\\learn-gas\\aura\\intermediate\\build\\win64\\unrealeditor\\inc\\aura\\uht\\enemyinterface.gen.cpp"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []
