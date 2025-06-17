@@ -3,9 +3,9 @@
 	{
 		"Module.Aura.gen.cpp.obj": [
 			"AuraAbilitySystemComponent.gen.cpp.obj",
+			"AuraAttributeSet.gen.cpp.obj",
 			"AuraCharacter.gen.cpp.obj",
 			"AuraCharacterBase.gen.cpp.obj",
-			"AuraEffectActor.gen.cpp.obj",
 			"AuraEnemy.gen.cpp.obj",
 			"AuraGameModeBase.gen.cpp.obj",
 			"AuraHUD.gen.cpp.obj",
@@ -16,7 +16,7 @@
 			"EnemyInterface.gen.cpp.obj",
 			"OverlayWidgetController.gen.cpp.obj",
 			"Aura.init.gen.cpp.obj",
-			"AuraAttributeSet.gen.cpp.obj"
+			"AuraEffectActor.gen.cpp.obj"
 		]
 	}
 }
