@@ -15,7 +15,9 @@
 				"E:/learn-gas/Aura/Content/Blueprints/Actor/Potion/CT_PotionHeal.uasset",
 				"E:/learn-gas/Aura/Content/Blueprints/Actor/Potion/GE_PotionHeal.uasset",
 				"E:/learn-gas/Aura/Content/Blueprints/Actor/Potion/CT_PotionMana.uasset",
-				"E:/learn-gas/Aura/Content/Blueprints/Actor/Potion/GE_PotionMana.uasset"
+				"E:/learn-gas/Aura/Content/Blueprints/Actor/Potion/GE_PotionMana.uasset",
+				"E:/learn-gas/Aura/Content/Blueprints/AbilitySystem/GameplayTag/DT_PrimaryAttributes.uasset",
+				"E:/learn-gas/Aura/Content/Blueprints/AbilitySystem/GameplayTag/DT_VitalAttributes.uasset"
 			]
 		}
 	]

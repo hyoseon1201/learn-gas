@@ -6,6 +6,7 @@
         "PCH": "e:\\learn-gas\\aura\\intermediate\\build\\win64\\x64\\auraeditor\\debuggame\\unrealed\\sharedpch.unrealed.project.nonoptimized.valapi.valexpapi.cpp20.h.pch",
         "Includes": [
             "e:\\learn-gas\\aura\\intermediate\\build\\win64\\x64\\unrealeditor\\debuggame\\aura\\definitions.aura.h",
+            "e:\\learn-gas\\aura\\intermediate\\build\\win64\\unrealeditor\\inc\\aura\\uht\\aura.init.gen.cpp",
             "e:\\learn-gas\\aura\\intermediate\\build\\win64\\unrealeditor\\inc\\aura\\uht\\auraabilitysystemcomponent.gen.cpp",
             "e:\\learn-gas\\aura\\source\\aura\\abilitysystem\\auraabilitysystemcomponent.h",
             "e:\\ue_5.6\\engine\\plugins\\runtime\\gameplayabilities\\source\\gameplayabilities\\public\\abilitysystemcomponent.h",
@@ -81,6 +82,9 @@
             "e:\\learn-gas\\aura\\intermediate\\build\\win64\\unrealeditor\\inc\\aura\\uht\\auracharacterbase.generated.h",
             "e:\\learn-gas\\aura\\intermediate\\build\\win64\\unrealeditor\\inc\\aura\\uht\\auracharacter.generated.h",
             "e:\\learn-gas\\aura\\intermediate\\build\\win64\\unrealeditor\\inc\\aura\\uht\\auracharacterbase.gen.cpp",
+            "e:\\learn-gas\\aura\\intermediate\\build\\win64\\unrealeditor\\inc\\aura\\uht\\auraeffectactor.gen.cpp",
+            "e:\\learn-gas\\aura\\source\\aura\\actor\\auraeffectactor.h",
+            "e:\\learn-gas\\aura\\intermediate\\build\\win64\\unrealeditor\\inc\\aura\\uht\\auraeffectactor.generated.h",
             "e:\\learn-gas\\aura\\intermediate\\build\\win64\\unrealeditor\\inc\\aura\\uht\\auraenemy.gen.cpp",
             "e:\\learn-gas\\aura\\source\\aura\\character\\auraenemy.h",
             "e:\\learn-gas\\aura\\source\\aura\\interaction\\enemyinterface.h",
