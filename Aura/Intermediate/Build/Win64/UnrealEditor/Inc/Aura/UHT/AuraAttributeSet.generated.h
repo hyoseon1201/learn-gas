@@ -19,8 +19,17 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 struct FGameplayAttributeData;
 
+// ********** Begin ScriptStruct FEffectProperties *************************************************
+#define FID_learn_gas_Aura_Source_Aura_AbilitySystem_AuraAttributeSet_h_17_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FEffectProperties_Statics; \
+	AURA_API static class UScriptStruct* StaticStruct();
+
+
+struct FEffectProperties;
+// ********** End ScriptStruct FEffectProperties ***************************************************
+
 // ********** Begin Class UAuraAttributeSet ********************************************************
-#define FID_learn_gas_Aura_Source_Aura_AbilitySystem_AuraAttributeSet_h_20_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_learn_gas_Aura_Source_Aura_AbilitySystem_AuraAttributeSet_h_54_RPC_WRAPPERS_NO_PURE_DECLS \
 	DECLARE_FUNCTION(execOnRep_MaxMana); \
 	DECLARE_FUNCTION(execOnRep_Mana); \
 	DECLARE_FUNCTION(execOnRep_MaxHealth); \
@@ -29,7 +38,7 @@ struct FGameplayAttributeData;
 
 AURA_API UClass* Z_Construct_UClass_UAuraAttributeSet_NoRegister();
 
-#define FID_learn_gas_Aura_Source_Aura_AbilitySystem_AuraAttributeSet_h_20_INCLASS_NO_PURE_DECLS \
+#define FID_learn_gas_Aura_Source_Aura_AbilitySystem_AuraAttributeSet_h_54_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUAuraAttributeSet(); \
 	friend struct Z_Construct_UClass_UAuraAttributeSet_Statics; \
@@ -52,7 +61,7 @@ private: \
 public:
 
 
-#define FID_learn_gas_Aura_Source_Aura_AbilitySystem_AuraAttributeSet_h_20_ENHANCED_CONSTRUCTORS \
+#define FID_learn_gas_Aura_Source_Aura_AbilitySystem_AuraAttributeSet_h_54_ENHANCED_CONSTRUCTORS \
 	/** Deleted move- and copy-constructors, should never be used */ \
 	UAuraAttributeSet(UAuraAttributeSet&&) = delete; \
 	UAuraAttributeSet(const UAuraAttributeSet&) = delete; \
@@ -62,13 +71,13 @@ public:
 	NO_API virtual ~UAuraAttributeSet();
 
 
-#define FID_learn_gas_Aura_Source_Aura_AbilitySystem_AuraAttributeSet_h_17_PROLOG
-#define FID_learn_gas_Aura_Source_Aura_AbilitySystem_AuraAttributeSet_h_20_GENERATED_BODY \
+#define FID_learn_gas_Aura_Source_Aura_AbilitySystem_AuraAttributeSet_h_51_PROLOG
+#define FID_learn_gas_Aura_Source_Aura_AbilitySystem_AuraAttributeSet_h_54_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_learn_gas_Aura_Source_Aura_AbilitySystem_AuraAttributeSet_h_20_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_learn_gas_Aura_Source_Aura_AbilitySystem_AuraAttributeSet_h_20_INCLASS_NO_PURE_DECLS \
-	FID_learn_gas_Aura_Source_Aura_AbilitySystem_AuraAttributeSet_h_20_ENHANCED_CONSTRUCTORS \
+	FID_learn_gas_Aura_Source_Aura_AbilitySystem_AuraAttributeSet_h_54_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_learn_gas_Aura_Source_Aura_AbilitySystem_AuraAttributeSet_h_54_INCLASS_NO_PURE_DECLS \
+	FID_learn_gas_Aura_Source_Aura_AbilitySystem_AuraAttributeSet_h_54_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
