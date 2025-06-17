@@ -20,13 +20,15 @@ class AActor;
 class UGameplayEffect;
 
 // ********** Begin Class AAuraEffectActor *********************************************************
-#define FID_learn_gas_Aura_Source_Aura_Actor_AuraEffectActor_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
-	DECLARE_FUNCTION(execApplyEffectToTarget);
+#define FID_learn_gas_Aura_Source_Aura_Actor_AuraEffectActor_h_29_RPC_WRAPPERS_NO_PURE_DECLS \
+	DECLARE_FUNCTION(execOnEndOverlap); \
+	DECLARE_FUNCTION(execOnBeginOverlap); \
+	DECLARE_FUNCTION(execApplyEffectsToTarget);
 
 
 AURA_API UClass* Z_Construct_UClass_AAuraEffectActor_NoRegister();
 
-#define FID_learn_gas_Aura_Source_Aura_Actor_AuraEffectActor_h_12_INCLASS_NO_PURE_DECLS \
+#define FID_learn_gas_Aura_Source_Aura_Actor_AuraEffectActor_h_29_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAAuraEffectActor(); \
 	friend struct Z_Construct_UClass_AAuraEffectActor_Statics; \
@@ -37,7 +39,7 @@ public: \
 	DECLARE_SERIALIZER(AAuraEffectActor)
 
 
-#define FID_learn_gas_Aura_Source_Aura_Actor_AuraEffectActor_h_12_ENHANCED_CONSTRUCTORS \
+#define FID_learn_gas_Aura_Source_Aura_Actor_AuraEffectActor_h_29_ENHANCED_CONSTRUCTORS \
 	/** Deleted move- and copy-constructors, should never be used */ \
 	AAuraEffectActor(AAuraEffectActor&&) = delete; \
 	AAuraEffectActor(const AAuraEffectActor&) = delete; \
@@ -47,13 +49,13 @@ public: \
 	NO_API virtual ~AAuraEffectActor();
 
 
-#define FID_learn_gas_Aura_Source_Aura_Actor_AuraEffectActor_h_9_PROLOG
-#define FID_learn_gas_Aura_Source_Aura_Actor_AuraEffectActor_h_12_GENERATED_BODY \
+#define FID_learn_gas_Aura_Source_Aura_Actor_AuraEffectActor_h_26_PROLOG
+#define FID_learn_gas_Aura_Source_Aura_Actor_AuraEffectActor_h_29_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_learn_gas_Aura_Source_Aura_Actor_AuraEffectActor_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_learn_gas_Aura_Source_Aura_Actor_AuraEffectActor_h_12_INCLASS_NO_PURE_DECLS \
-	FID_learn_gas_Aura_Source_Aura_Actor_AuraEffectActor_h_12_ENHANCED_CONSTRUCTORS \
+	FID_learn_gas_Aura_Source_Aura_Actor_AuraEffectActor_h_29_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_learn_gas_Aura_Source_Aura_Actor_AuraEffectActor_h_29_INCLASS_NO_PURE_DECLS \
+	FID_learn_gas_Aura_Source_Aura_Actor_AuraEffectActor_h_29_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -64,5 +66,26 @@ class AAuraEffectActor;
 
 #undef CURRENT_FILE_ID
 #define CURRENT_FILE_ID FID_learn_gas_Aura_Source_Aura_Actor_AuraEffectActor_h
+
+// ********** Begin Enum EEffectApplicationPolicy **************************************************
+#define FOREACH_ENUM_EEFFECTAPPLICATIONPOLICY(op) \
+	op(EEffectApplicationPolicy::ApplyOnBeginOverlap) \
+	op(EEffectApplicationPolicy::ApplyOnEndOverlap) \
+	op(EEffectApplicationPolicy::DoNotApply) 
+
+enum class EEffectApplicationPolicy : uint8;
+template<> struct TIsUEnumClass<EEffectApplicationPolicy> { enum { Value = true }; };
+template<> AURA_API UEnum* StaticEnum<EEffectApplicationPolicy>();
+// ********** End Enum EEffectApplicationPolicy ****************************************************
+
+// ********** Begin Enum EEffectRemovalPolicy ******************************************************
+#define FOREACH_ENUM_EEFFECTREMOVALPOLICY(op) \
+	op(EEffectRemovalPolicy::RemoveOnEndOverlap) \
+	op(EEffectRemovalPolicy::DoNotRemove) 
+
+enum class EEffectRemovalPolicy : uint8;
+template<> struct TIsUEnumClass<EEffectRemovalPolicy> { enum { Value = true }; };
+template<> AURA_API UEnum* StaticEnum<EEffectRemovalPolicy>();
+// ********** End Enum EEffectRemovalPolicy ********************************************************
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
