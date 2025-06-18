@@ -16,36 +16,10 @@
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
-// ********** Begin Delegate FOnHealthChangeSignature **********************************************
-#define FID_learn_gas_Aura_Source_Aura_UI_WidgetController_OverlayWidgetController_h_12_DELEGATE \
-AURA_API void FOnHealthChangeSignature_DelegateWrapper(const FMulticastScriptDelegate& OnHealthChangeSignature, float NewHealth);
-
-
-// ********** End Delegate FOnHealthChangeSignature ************************************************
-
-// ********** Begin Delegate FOnMaxHealthChangeSignature *******************************************
-#define FID_learn_gas_Aura_Source_Aura_UI_WidgetController_OverlayWidgetController_h_13_DELEGATE \
-AURA_API void FOnMaxHealthChangeSignature_DelegateWrapper(const FMulticastScriptDelegate& OnMaxHealthChangeSignature, float NewMaxHealth);
-
-
-// ********** End Delegate FOnMaxHealthChangeSignature *********************************************
-
-// ********** Begin Delegate FOnManaChangeSignature ************************************************
-#define FID_learn_gas_Aura_Source_Aura_UI_WidgetController_OverlayWidgetController_h_14_DELEGATE \
-AURA_API void FOnManaChangeSignature_DelegateWrapper(const FMulticastScriptDelegate& OnManaChangeSignature, float NewMana);
-
-
-// ********** End Delegate FOnManaChangeSignature **************************************************
-
-// ********** Begin Delegate FOnMaxManaChangeSignature *********************************************
-#define FID_learn_gas_Aura_Source_Aura_UI_WidgetController_OverlayWidgetController_h_15_DELEGATE \
-AURA_API void FOnMaxManaChangeSignature_DelegateWrapper(const FMulticastScriptDelegate& OnMaxManaChangeSignature, float NewMaxMana);
-
-
-// ********** End Delegate FOnMaxManaChangeSignature ***********************************************
+struct FUIWidgetRow;
 
 // ********** Begin ScriptStruct FUIWidgetRow ******************************************************
-#define FID_learn_gas_Aura_Source_Aura_UI_WidgetController_OverlayWidgetController_h_20_GENERATED_BODY \
+#define FID_learn_gas_Aura_Source_Aura_UI_WidgetController_OverlayWidgetController_h_15_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FUIWidgetRow_Statics; \
 	AURA_API static class UScriptStruct* StaticStruct(); \
 	typedef FTableRowBase Super;
@@ -54,10 +28,45 @@ AURA_API void FOnMaxManaChangeSignature_DelegateWrapper(const FMulticastScriptDe
 struct FUIWidgetRow;
 // ********** End ScriptStruct FUIWidgetRow ********************************************************
 
+// ********** Begin Delegate FOnHealthChangeSignature **********************************************
+#define FID_learn_gas_Aura_Source_Aura_UI_WidgetController_OverlayWidgetController_h_30_DELEGATE \
+AURA_API void FOnHealthChangeSignature_DelegateWrapper(const FMulticastScriptDelegate& OnHealthChangeSignature, float NewHealth);
+
+
+// ********** End Delegate FOnHealthChangeSignature ************************************************
+
+// ********** Begin Delegate FOnMaxHealthChangeSignature *******************************************
+#define FID_learn_gas_Aura_Source_Aura_UI_WidgetController_OverlayWidgetController_h_31_DELEGATE \
+AURA_API void FOnMaxHealthChangeSignature_DelegateWrapper(const FMulticastScriptDelegate& OnMaxHealthChangeSignature, float NewMaxHealth);
+
+
+// ********** End Delegate FOnMaxHealthChangeSignature *********************************************
+
+// ********** Begin Delegate FOnManaChangeSignature ************************************************
+#define FID_learn_gas_Aura_Source_Aura_UI_WidgetController_OverlayWidgetController_h_32_DELEGATE \
+AURA_API void FOnManaChangeSignature_DelegateWrapper(const FMulticastScriptDelegate& OnManaChangeSignature, float NewMana);
+
+
+// ********** End Delegate FOnManaChangeSignature **************************************************
+
+// ********** Begin Delegate FOnMaxManaChangeSignature *********************************************
+#define FID_learn_gas_Aura_Source_Aura_UI_WidgetController_OverlayWidgetController_h_33_DELEGATE \
+AURA_API void FOnMaxManaChangeSignature_DelegateWrapper(const FMulticastScriptDelegate& OnMaxManaChangeSignature, float NewMaxMana);
+
+
+// ********** End Delegate FOnMaxManaChangeSignature ***********************************************
+
+// ********** Begin Delegate FMessageWidgetRowSignature ********************************************
+#define FID_learn_gas_Aura_Source_Aura_UI_WidgetController_OverlayWidgetController_h_35_DELEGATE \
+AURA_API void FMessageWidgetRowSignature_DelegateWrapper(const FMulticastScriptDelegate& MessageWidgetRowSignature, FUIWidgetRow Row);
+
+
+// ********** End Delegate FMessageWidgetRowSignature **********************************************
+
 // ********** Begin Class UOverlayWidgetController *************************************************
 AURA_API UClass* Z_Construct_UClass_UOverlayWidgetController_NoRegister();
 
-#define FID_learn_gas_Aura_Source_Aura_UI_WidgetController_OverlayWidgetController_h_41_INCLASS_NO_PURE_DECLS \
+#define FID_learn_gas_Aura_Source_Aura_UI_WidgetController_OverlayWidgetController_h_43_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUOverlayWidgetController(); \
 	friend struct Z_Construct_UClass_UOverlayWidgetController_Statics; \
@@ -68,7 +77,7 @@ public: \
 	DECLARE_SERIALIZER(UOverlayWidgetController)
 
 
-#define FID_learn_gas_Aura_Source_Aura_UI_WidgetController_OverlayWidgetController_h_41_ENHANCED_CONSTRUCTORS \
+#define FID_learn_gas_Aura_Source_Aura_UI_WidgetController_OverlayWidgetController_h_43_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UOverlayWidgetController(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	/** Deleted move- and copy-constructors, should never be used */ \
@@ -80,12 +89,12 @@ public: \
 	NO_API virtual ~UOverlayWidgetController();
 
 
-#define FID_learn_gas_Aura_Source_Aura_UI_WidgetController_OverlayWidgetController_h_38_PROLOG
-#define FID_learn_gas_Aura_Source_Aura_UI_WidgetController_OverlayWidgetController_h_41_GENERATED_BODY \
+#define FID_learn_gas_Aura_Source_Aura_UI_WidgetController_OverlayWidgetController_h_40_PROLOG
+#define FID_learn_gas_Aura_Source_Aura_UI_WidgetController_OverlayWidgetController_h_43_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_learn_gas_Aura_Source_Aura_UI_WidgetController_OverlayWidgetController_h_41_INCLASS_NO_PURE_DECLS \
-	FID_learn_gas_Aura_Source_Aura_UI_WidgetController_OverlayWidgetController_h_41_ENHANCED_CONSTRUCTORS \
+	FID_learn_gas_Aura_Source_Aura_UI_WidgetController_OverlayWidgetController_h_43_INCLASS_NO_PURE_DECLS \
+	FID_learn_gas_Aura_Source_Aura_UI_WidgetController_OverlayWidgetController_h_43_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

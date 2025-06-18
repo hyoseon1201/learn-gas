@@ -7,6 +7,7 @@
 #include "UObject/GeneratedCppIncludes.h"
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeAura_init() {}
+	AURA_API UFunction* Z_Construct_UDelegateFunction_Aura_MessageWidgetRowSignature__DelegateSignature();
 	AURA_API UFunction* Z_Construct_UDelegateFunction_Aura_OnHealthChangeSignature__DelegateSignature();
 	AURA_API UFunction* Z_Construct_UDelegateFunction_Aura_OnManaChangeSignature__DelegateSignature();
 	AURA_API UFunction* Z_Construct_UDelegateFunction_Aura_OnMaxHealthChangeSignature__DelegateSignature();
@@ -17,6 +18,7 @@ void EmptyLinkFunctionForGeneratedCodeAura_init() {}
 		if (!Z_Registration_Info_UPackage__Script_Aura.OuterSingleton)
 		{
 			static UObject* (*const SingletonFuncArray[])() = {
+				(UObject* (*)())Z_Construct_UDelegateFunction_Aura_MessageWidgetRowSignature__DelegateSignature,
 				(UObject* (*)())Z_Construct_UDelegateFunction_Aura_OnHealthChangeSignature__DelegateSignature,
 				(UObject* (*)())Z_Construct_UDelegateFunction_Aura_OnManaChangeSignature__DelegateSignature,
 				(UObject* (*)())Z_Construct_UDelegateFunction_Aura_OnMaxHealthChangeSignature__DelegateSignature,
@@ -27,13 +29,13 @@ void EmptyLinkFunctionForGeneratedCodeAura_init() {}
 				SingletonFuncArray,
 				UE_ARRAY_COUNT(SingletonFuncArray),
 				PKG_CompiledIn | 0x00000000,
-				0xC1DAAB32,
-				0xF91F8236,
+				0xAF4EE6CE,
+				0x5757C292,
 				METADATA_PARAMS(0, nullptr)
 			};
 			UECodeGen_Private::ConstructUPackage(Z_Registration_Info_UPackage__Script_Aura.OuterSingleton, PackageParams);
 		}
 		return Z_Registration_Info_UPackage__Script_Aura.OuterSingleton;
 	}
-	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_Aura(Z_Construct_UPackage__Script_Aura, TEXT("/Script/Aura"), Z_Registration_Info_UPackage__Script_Aura, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0xC1DAAB32, 0xF91F8236));
+	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_Aura(Z_Construct_UPackage__Script_Aura, TEXT("/Script/Aura"), Z_Registration_Info_UPackage__Script_Aura, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0xAF4EE6CE, 0x5757C292));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
