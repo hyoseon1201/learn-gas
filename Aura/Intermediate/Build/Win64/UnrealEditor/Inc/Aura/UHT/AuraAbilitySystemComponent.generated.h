@@ -19,7 +19,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 // ********** Begin Class UAuraAbilitySystemComponent **********************************************
 AURA_API UClass* Z_Construct_UClass_UAuraAbilitySystemComponent_NoRegister();
 
-#define FID_learn_gas_Aura_Source_Aura_AbilitySystem_AuraAbilitySystemComponent_h_13_INCLASS_NO_PURE_DECLS \
+#define FID_learn_gas_Aura_Source_Aura_AbilitySystem_AuraAbilitySystemComponent_h_15_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUAuraAbilitySystemComponent(); \
 	friend struct Z_Construct_UClass_UAuraAbilitySystemComponent_Statics; \
@@ -30,7 +30,7 @@ public: \
 	DECLARE_SERIALIZER(UAuraAbilitySystemComponent)
 
 
-#define FID_learn_gas_Aura_Source_Aura_AbilitySystem_AuraAbilitySystemComponent_h_13_ENHANCED_CONSTRUCTORS \
+#define FID_learn_gas_Aura_Source_Aura_AbilitySystem_AuraAbilitySystemComponent_h_15_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UAuraAbilitySystemComponent(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	/** Deleted move- and copy-constructors, should never be used */ \
@@ -42,12 +42,12 @@ public: \
 	NO_API virtual ~UAuraAbilitySystemComponent();
 
 
-#define FID_learn_gas_Aura_Source_Aura_AbilitySystem_AuraAbilitySystemComponent_h_10_PROLOG
-#define FID_learn_gas_Aura_Source_Aura_AbilitySystem_AuraAbilitySystemComponent_h_13_GENERATED_BODY \
+#define FID_learn_gas_Aura_Source_Aura_AbilitySystem_AuraAbilitySystemComponent_h_12_PROLOG
+#define FID_learn_gas_Aura_Source_Aura_AbilitySystem_AuraAbilitySystemComponent_h_15_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_learn_gas_Aura_Source_Aura_AbilitySystem_AuraAbilitySystemComponent_h_13_INCLASS_NO_PURE_DECLS \
-	FID_learn_gas_Aura_Source_Aura_AbilitySystem_AuraAbilitySystemComponent_h_13_ENHANCED_CONSTRUCTORS \
+	FID_learn_gas_Aura_Source_Aura_AbilitySystem_AuraAbilitySystemComponent_h_15_INCLASS_NO_PURE_DECLS \
+	FID_learn_gas_Aura_Source_Aura_AbilitySystem_AuraAbilitySystemComponent_h_15_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
