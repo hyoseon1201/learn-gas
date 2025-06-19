@@ -23,7 +23,9 @@
 				"E:/learn-gas/Aura/Content/Blueprints/Actor/Crystal/GE_CrystalMana.uasset",
 				"E:/learn-gas/Aura/Content/Blueprints/UI/Overlay/WBP_Overlay.uasset",
 				"E:/learn-gas/Aura/Content/Blueprints/UI/WidgetController/BP_OverlayWidgetController.uasset",
-				"E:/learn-gas/Aura/Content/Blueprints/UI/Overlay/Subwidget/WBP_EffectMessage.uasset"
+				"E:/learn-gas/Aura/Content/Blueprints/UI/Overlay/Subwidget/WBP_EffectMessage.uasset",
+				"E:/learn-gas/Aura/Content/Blueprints/UI/ProgressBar/WBP_ManaGlobe.uasset",
+				"E:/learn-gas/Aura/Content/Blueprints/UI/ProgressBar/WBP_HealthGlobe.uasset"
 			]
 		}
 	]
