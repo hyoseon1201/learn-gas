@@ -2,6 +2,7 @@
 	"RemapUnityFiles": 
 	{
 		"Module.Aura.gen.cpp.obj": [
+			"Aura.init.gen.cpp.obj",
 			"AuraAbilitySystemComponent.gen.cpp.obj",
 			"AuraAttributeSet.gen.cpp.obj",
 			"AuraCharacter.gen.cpp.obj",
@@ -15,7 +16,6 @@
 			"AuraUserWidget.gen.cpp.obj",
 			"AuraWidgetController.gen.cpp.obj",
 			"EnemyInterface.gen.cpp.obj",
-			"Aura.init.gen.cpp.obj",
 			"OverlayWidgetController.gen.cpp.obj"
 		]
 	}

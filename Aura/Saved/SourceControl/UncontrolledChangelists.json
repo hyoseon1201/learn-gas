@@ -25,7 +25,9 @@
 				"E:/learn-gas/Aura/Content/Blueprints/UI/WidgetController/BP_OverlayWidgetController.uasset",
 				"E:/learn-gas/Aura/Content/Blueprints/UI/Overlay/Subwidget/WBP_EffectMessage.uasset",
 				"E:/learn-gas/Aura/Content/Blueprints/UI/ProgressBar/WBP_ManaGlobe.uasset",
-				"E:/learn-gas/Aura/Content/Blueprints/UI/ProgressBar/WBP_HealthGlobe.uasset"
+				"E:/learn-gas/Aura/Content/Blueprints/UI/ProgressBar/WBP_HealthGlobe.uasset",
+				"E:/learn-gas/Aura/Content/Blueprints/Actor/GE_Test.uasset",
+				"E:/learn-gas/Aura/Content/Blueprints/UI/ProgressBar/WBP_GlobeProgressBar.uasset"
 			]
 		}
 	]
