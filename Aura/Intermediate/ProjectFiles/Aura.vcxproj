@@ -256,6 +256,7 @@
     <None Include="..\..\Config\DefaultEditor.ini"/>
     <None Include="..\..\Config\DefaultEngine.ini"/>
     <None Include="..\..\Config\DefaultGame.ini"/>
+    <None Include="..\..\Config\DefaultGameplayTags.ini"/>
     <None Include="..\..\Config\DefaultInput.ini"/>
     <None Include="..\..\Source\Aura\Aura.Build.cs"/>
     <ClCompile Include="..\..\Source\Aura\Aura.cpp">
@@ -270,6 +271,14 @@
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <ClInclude Include="..\..\Source\Aura\AbilitySystem\AuraAttributeSet.h"/>
+    <ClCompile Include="..\..\Source\Aura\AbilitySystem\MMC\MMC_MaxHealth.cpp">
+      <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Aura\AbilitySystem\MMC\MMC_MaxHealth.h"/>
+    <ClCompile Include="..\..\Source\Aura\AbilitySystem\MMC\MMC_MaxMana.cpp">
+      <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Aura\AbilitySystem\MMC\MMC_MaxMana.h"/>
     <ClCompile Include="..\..\Source\Aura\Actor\AuraEffectActor.cpp">
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
@@ -290,6 +299,10 @@
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <ClInclude Include="..\..\Source\Aura\Game\AuraGameModeBase.h"/>
+    <ClCompile Include="..\..\Source\Aura\Interaction\CombatInterface.cpp">
+      <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Aura\Interaction\CombatInterface.h"/>
     <ClCompile Include="..\..\Source\Aura\Interaction\EnemyInterface.cpp">
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>

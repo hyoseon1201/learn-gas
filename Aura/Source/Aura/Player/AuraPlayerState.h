@@ -27,6 +27,11 @@ public:
 		return AttributeSet;
 	}
 
+	FORCEINLINE int32 GetPlayerLevel() const
+	{
+		return Level;
+	}
+
 protected:
 	UPROPERTY(VisibleAnywhere)
 	TObjectPtr<UAbilitySystemComponent> AbilitySystemComponent;

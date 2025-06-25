@@ -24,6 +24,9 @@
     <None Include="..\..\Config\DefaultGame.ini">
       <Filter>Config</Filter>
     </None>
+    <None Include="..\..\Config\DefaultGameplayTags.ini">
+      <Filter>Config</Filter>
+    </None>
     <None Include="..\..\Config\DefaultInput.ini">
       <Filter>Config</Filter>
     </None>
@@ -53,6 +56,21 @@
     </ClCompile>
     <ClInclude Include="..\..\Source\Aura\AbilitySystem\AuraAttributeSet.h">
       <Filter>Source\Aura\AbilitySystem</Filter>
+    </ClInclude>
+    <Filter Include="Source\Aura\AbilitySystem\MMC">
+      <UniqueIdentifier>{9CD938C5-0E41-3EEE-88DB-BA9DEC91C4B2}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Aura\AbilitySystem\MMC\MMC_MaxHealth.cpp">
+      <Filter>Source\Aura\AbilitySystem\MMC</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Aura\AbilitySystem\MMC\MMC_MaxHealth.h">
+      <Filter>Source\Aura\AbilitySystem\MMC</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Aura\AbilitySystem\MMC\MMC_MaxMana.cpp">
+      <Filter>Source\Aura\AbilitySystem\MMC</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Aura\AbilitySystem\MMC\MMC_MaxMana.h">
+      <Filter>Source\Aura\AbilitySystem\MMC</Filter>
     </ClInclude>
     <Filter Include="Source\Aura\Actor">
       <UniqueIdentifier>{1BB53451-9C24-3E6D-BD8F-B5FA1A466971}</UniqueIdentifier>
@@ -96,6 +114,12 @@
     <Filter Include="Source\Aura\Interaction">
       <UniqueIdentifier>{BEA6B76F-F4B5-3637-9595-09E211017C0D}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\Aura\Interaction\CombatInterface.cpp">
+      <Filter>Source\Aura\Interaction</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Aura\Interaction\CombatInterface.h">
+      <Filter>Source\Aura\Interaction</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\Aura\Interaction\EnemyInterface.cpp">
       <Filter>Source\Aura\Interaction</Filter>
     </ClCompile>
