@@ -105,10 +105,10 @@ AAuraCharacter::~AAuraCharacter() {}
 struct Z_CompiledInDeferFile_FID_learn_gas_Aura_Source_Aura_Character_AuraCharacter_h__Script_Aura_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_AAuraCharacter, AAuraCharacter::StaticClass, TEXT("AAuraCharacter"), &Z_Registration_Info_UClass_AAuraCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AAuraCharacter), 4041604159U) },
+		{ Z_Construct_UClass_AAuraCharacter, AAuraCharacter::StaticClass, TEXT("AAuraCharacter"), &Z_Registration_Info_UClass_AAuraCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AAuraCharacter), 1019228633U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_learn_gas_Aura_Source_Aura_Character_AuraCharacter_h__Script_Aura_15944896(TEXT("/Script/Aura"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_learn_gas_Aura_Source_Aura_Character_AuraCharacter_h__Script_Aura_3230835374(TEXT("/Script/Aura"),
 	Z_CompiledInDeferFile_FID_learn_gas_Aura_Source_Aura_Character_AuraCharacter_h__Script_Aura_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_learn_gas_Aura_Source_Aura_Character_AuraCharacter_h__Script_Aura_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);

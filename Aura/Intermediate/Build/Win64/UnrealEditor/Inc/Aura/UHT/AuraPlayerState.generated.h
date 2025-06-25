@@ -17,6 +17,10 @@
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 // ********** Begin Class AAuraPlayerState *********************************************************
+#define FID_learn_gas_Aura_Source_Aura_Player_AuraPlayerState_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
+	DECLARE_FUNCTION(execOnRep_Level);
+
+
 AURA_API UClass* Z_Construct_UClass_AAuraPlayerState_NoRegister();
 
 #define FID_learn_gas_Aura_Source_Aura_Player_AuraPlayerState_h_17_INCLASS_NO_PURE_DECLS \
@@ -28,7 +32,13 @@ private: \
 public: \
 	DECLARE_CLASS2(AAuraPlayerState, APlayerState, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/Aura"), Z_Construct_UClass_AAuraPlayerState_NoRegister) \
 	DECLARE_SERIALIZER(AAuraPlayerState) \
-	virtual UObject* _getUObject() const override { return const_cast<AAuraPlayerState*>(this); }
+	virtual UObject* _getUObject() const override { return const_cast<AAuraPlayerState*>(this); } \
+	enum class ENetFields_Private : uint16 \
+	{ \
+		NETFIELD_REP_START=(uint16)((int32)Super::ENetFields_Private::NETFIELD_REP_END + (int32)1), \
+		Level=NETFIELD_REP_START, \
+		NETFIELD_REP_END=Level	}; \
+	DECLARE_VALIDATE_GENERATED_REP_ENUMS(NO_API)
 
 
 #define FID_learn_gas_Aura_Source_Aura_Player_AuraPlayerState_h_17_ENHANCED_CONSTRUCTORS \
@@ -45,6 +55,7 @@ public: \
 #define FID_learn_gas_Aura_Source_Aura_Player_AuraPlayerState_h_17_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
+	FID_learn_gas_Aura_Source_Aura_Player_AuraPlayerState_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
 	FID_learn_gas_Aura_Source_Aura_Player_AuraPlayerState_h_17_INCLASS_NO_PURE_DECLS \
 	FID_learn_gas_Aura_Source_Aura_Player_AuraPlayerState_h_17_ENHANCED_CONSTRUCTORS \
 private: \

@@ -26,8 +26,17 @@
 				"E:/learn-gas/Aura/Content/Blueprints/UI/Overlay/Subwidget/WBP_EffectMessage.uasset",
 				"E:/learn-gas/Aura/Content/Blueprints/UI/ProgressBar/WBP_ManaGlobe.uasset",
 				"E:/learn-gas/Aura/Content/Blueprints/UI/ProgressBar/WBP_HealthGlobe.uasset",
-				"E:/learn-gas/Aura/Content/Blueprints/Actor/GE_Test.uasset",
-				"E:/learn-gas/Aura/Content/Blueprints/UI/ProgressBar/WBP_GlobeProgressBar.uasset"
+				"E:/learn-gas/Aura/Content/Blueprints/UI/ProgressBar/WBP_GlobeProgressBar.uasset",
+				"E:/learn-gas/Aura/Content/Blueprints/Player/BP_AuraPlayerState.uasset",
+				"E:/learn-gas/Aura/Content/Blueprints/AbilitySystem/Data/DT_InitialPrimaryValue.uasset",
+				"E:/learn-gas/Aura/Content/Blueprints/AbilitySystem/GameplayEffect/PrimaryAttribute/GE_AuraPrimaryAttributes.uasset",
+				"E:/learn-gas/Aura/Content/Blueprints/Character/Aura/BP_AuraCharacter.uasset",
+				"E:/learn-gas/Aura/Content/Blueprints/Actor/TestActor/BP_TestActor.uasset",
+				"E:/learn-gas/Aura/Content/Blueprints/Actor/TestActor/GE_TestAttributeBase.uasset",
+				"E:/learn-gas/Aura/Content/Blueprints/AbilitySystem/GameplayEffect/DefaultAttribute/GE_AuraPrimaryAttributes.uasset",
+				"E:/learn-gas/Aura/Content/Blueprints/AbilitySystem/GameplayEffect/DefaultAttribute/GE_AuraSecondaryAttributes.uasset",
+				"E:/learn-gas/Aura/Content/Blueprints/AbilitySystem/GameplayEffect/PrimaryAttribute/GE_AuraPrimaryAttribute.uasset",
+				"E:/learn-gas/Aura/Content/Blueprints/Actor/GE_Test.uasset"
 			]
 		}
 	]
