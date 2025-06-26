@@ -2,7 +2,6 @@
 	"RemapUnityFiles": 
 	{
 		"Module.Aura.cpp.obj": [
-			"Aura.init.gen.cpp.obj",
 			"AuraAbilitySystemComponent.gen.cpp.obj",
 			"AuraAttributeSet.gen.cpp.obj",
 			"AuraCharacter.gen.cpp.obj",
@@ -21,7 +20,6 @@
 			"MMC_MaxMana.gen.cpp.obj",
 			"OverlayWidgetController.gen.cpp.obj",
 			"PerModuleInline.gen.cpp.obj",
-			"AuraAbilitySystemComponent.cpp.obj",
 			"AuraAttributeSet.cpp.obj",
 			"MMC_MaxHealth.cpp.obj",
 			"MMC_MaxMana.cpp.obj",
@@ -38,7 +36,12 @@
 			"AuraHUD.cpp.obj",
 			"AuraWidgetController.cpp.obj",
 			"OverlayWidgetController.cpp.obj",
-			"AuraUserWidget.cpp.obj"
+			"AuraUserWidget.cpp.obj",
+			"Aura.init.gen.cpp.obj",
+			"AuraAssetManager.gen.cpp.obj",
+			"AuraAbilitySystemComponent.cpp.obj",
+			"AuraAssetManager.cpp.obj",
+			"AuraGameplayTags.cpp.obj"
 		]
 	}
 }

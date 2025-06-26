@@ -42,6 +42,18 @@
     <ClInclude Include="..\..\Source\Aura\Aura.h">
       <Filter>Source\Aura</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\Aura\AuraAssetManager.cpp">
+      <Filter>Source\Aura</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Aura\AuraAssetManager.h">
+      <Filter>Source\Aura</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Aura\AuraGameplayTags.cpp">
+      <Filter>Source\Aura</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Aura\AuraGameplayTags.h">
+      <Filter>Source\Aura</Filter>
+    </ClInclude>
     <Filter Include="Source\Aura\AbilitySystem">
       <UniqueIdentifier>{98F1A1CF-63E1-3B4D-A720-772F837858E2}</UniqueIdentifier>
     </Filter>

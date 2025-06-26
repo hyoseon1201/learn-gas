@@ -6,7 +6,6 @@
         "PCH": "e:\\learn-gas\\aura\\intermediate\\build\\win64\\x64\\auraeditor\\debuggame\\unrealed\\sharedpch.unrealed.project.nonoptimized.valapi.valexpapi.cpp20.h.pch",
         "Includes": [
             "e:\\learn-gas\\aura\\intermediate\\build\\win64\\x64\\unrealeditor\\debuggame\\aura\\definitions.aura.h",
-            "e:\\learn-gas\\aura\\intermediate\\build\\win64\\unrealeditor\\inc\\aura\\uht\\aura.init.gen.cpp",
             "e:\\learn-gas\\aura\\intermediate\\build\\win64\\unrealeditor\\inc\\aura\\uht\\auraabilitysystemcomponent.gen.cpp",
             "e:\\learn-gas\\aura\\source\\aura\\abilitysystem\\auraabilitysystemcomponent.h",
             "e:\\ue_5.6\\engine\\plugins\\runtime\\gameplayabilities\\source\\gameplayabilities\\public\\abilitysystemcomponent.h",
@@ -213,7 +212,6 @@
             "e:\\learn-gas\\aura\\intermediate\\build\\win64\\unrealeditor\\inc\\aura\\uht\\overlaywidgetcontroller.generated.h",
             "e:\\learn-gas\\aura\\intermediate\\build\\win64\\x64\\unrealeditor\\debuggame\\aura\\permoduleinline.gen.cpp",
             "e:\\ue_5.6\\engine\\source\\runtime\\core\\public\\hal\\permoduleinline.inl",
-            "e:\\learn-gas\\aura\\source\\aura\\abilitysystem\\auraabilitysystemcomponent.cpp",
             "e:\\learn-gas\\aura\\source\\aura\\abilitysystem\\auraattributeset.cpp",
             "e:\\ue_5.6\\engine\\source\\runtime\\engine\\public\\net\\unrealnetwork.h",
             "e:\\ue_5.6\\engine\\source\\runtime\\net\\core\\public\\net\\core\\propertyconditions\\propertyconditions.h",
