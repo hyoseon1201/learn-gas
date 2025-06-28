@@ -3,6 +3,8 @@
 	{
 		"Module.Aura.cpp.obj": [
 			"AuraAbilitySystemComponent.gen.cpp.obj",
+			"AuraAbilitySystemLibrary.gen.cpp.obj",
+			"AuraAssetManager.gen.cpp.obj",
 			"AuraAttributeSet.gen.cpp.obj",
 			"AuraCharacter.gen.cpp.obj",
 			"AuraCharacterBase.gen.cpp.obj",
@@ -26,6 +28,8 @@
 			"MMC_MaxMana.cpp.obj",
 			"AuraEffectActor.cpp.obj",
 			"Aura.cpp.obj",
+			"AuraAssetManager.cpp.obj",
+			"AuraGameplayTags.cpp.obj",
 			"AuraCharacter.cpp.obj",
 			"AuraCharacterBase.cpp.obj",
 			"AuraEnemy.cpp.obj",
@@ -38,10 +42,12 @@
 			"AuraWidgetController.cpp.obj",
 			"OverlayWidgetController.cpp.obj",
 			"AuraUserWidget.cpp.obj",
+			"AttributeMenuWidgetController.gen.cpp.obj",
 			"Aura.init.gen.cpp.obj",
-			"AuraAssetManager.gen.cpp.obj",
-			"AuraAssetManager.cpp.obj",
-			"AuraGameplayTags.cpp.obj"
+			"AuraAttributeInfo.gen.cpp.obj",
+			"AuraAbilitySystemLibrary.cpp.obj",
+			"AuraAttributeInfo.cpp.obj",
+			"AttributeMenuWidgetController.cpp.obj"
 		]
 	}
 }

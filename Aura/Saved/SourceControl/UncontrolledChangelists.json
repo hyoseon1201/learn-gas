@@ -16,8 +16,6 @@
 				"E:/learn-gas/Aura/Content/Blueprints/Actor/Potion/GE_PotionHeal.uasset",
 				"E:/learn-gas/Aura/Content/Blueprints/Actor/Potion/CT_PotionMana.uasset",
 				"E:/learn-gas/Aura/Content/Blueprints/Actor/Potion/GE_PotionMana.uasset",
-				"E:/learn-gas/Aura/Content/Blueprints/AbilitySystem/GameplayTag/DT_PrimaryAttributes.uasset",
-				"E:/learn-gas/Aura/Content/Blueprints/AbilitySystem/GameplayTag/DT_VitalAttributes.uasset",
 				"E:/learn-gas/Aura/Content/Blueprints/Actor/Crystal/GE_CrystalHeal.uasset",
 				"E:/learn-gas/Aura/Content/Blueprints/UI/Data/DT_MessageWidgetData.uasset",
 				"E:/learn-gas/Aura/Content/Blueprints/Actor/Crystal/GE_CrystalMana.uasset",
@@ -41,6 +39,9 @@
 				"E:/learn-gas/Aura/Content/Blueprints/UI/AttributeMenu/WBP_AttributeMenu.uasset",
 				"E:/learn-gas/Aura/Content/Blueprints/UI/Button/WBP_Button.uasset",
 				"E:/learn-gas/Aura/Content/Blueprints/UI/Button/WBP_WideButton.uasset",
+				"E:/learn-gas/Aura/Content/Blueprints/AbilitySystem/Data/DA_AttributeInfo.uasset",
+				"E:/learn-gas/Aura/Content/Blueprints/AbilitySystem/GameplayTag/DT_PrimaryAttributes.uasset",
+				"E:/learn-gas/Aura/Content/Blueprints/AbilitySystem/GameplayTag/DT_VitalAttributes.uasset",
 				"E:/learn-gas/Aura/Content/Blueprints/AbilitySystem/GameplayEffect/PrimaryAttribute/GE_AuraPrimaryAttributes.uasset",
 				"E:/learn-gas/Aura/Content/Blueprints/AbilitySystem/GameplayEffect/PrimaryAttribute/GE_AuraPrimaryAttribute.uasset",
 				"E:/learn-gas/Aura/Content/Blueprints/Actor/GE_Test.uasset"

@@ -63,11 +63,26 @@
     <ClInclude Include="..\..\Source\Aura\AbilitySystem\AuraAbilitySystemComponent.h">
       <Filter>Source\Aura\AbilitySystem</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\Aura\AbilitySystem\AuraAbilitySystemLibrary.cpp">
+      <Filter>Source\Aura\AbilitySystem</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Aura\AbilitySystem\AuraAbilitySystemLibrary.h">
+      <Filter>Source\Aura\AbilitySystem</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\Aura\AbilitySystem\AuraAttributeSet.cpp">
       <Filter>Source\Aura\AbilitySystem</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\Aura\AbilitySystem\AuraAttributeSet.h">
       <Filter>Source\Aura\AbilitySystem</Filter>
+    </ClInclude>
+    <Filter Include="Source\Aura\AbilitySystem\Data">
+      <UniqueIdentifier>{0F93E64D-4324-3405-AF40-B9B21395DE8E}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Aura\AbilitySystem\Data\AuraAttributeInfo.cpp">
+      <Filter>Source\Aura\AbilitySystem\Data</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Aura\AbilitySystem\Data\AuraAttributeInfo.h">
+      <Filter>Source\Aura\AbilitySystem\Data</Filter>
     </ClInclude>
     <Filter Include="Source\Aura\AbilitySystem\MMC">
       <UniqueIdentifier>{9CD938C5-0E41-3EEE-88DB-BA9DEC91C4B2}</UniqueIdentifier>
@@ -177,6 +192,12 @@
     <Filter Include="Source\Aura\UI\WidgetController">
       <UniqueIdentifier>{9ABADDEC-4649-3AF2-91B0-90E8872658B6}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\Aura\UI\WidgetController\AttributeMenuWidgetController.cpp">
+      <Filter>Source\Aura\UI\WidgetController</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Aura\UI\WidgetController\AttributeMenuWidgetController.h">
+      <Filter>Source\Aura\UI\WidgetController</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\Aura\UI\WidgetController\AuraWidgetController.cpp">
       <Filter>Source\Aura\UI\WidgetController</Filter>
     </ClCompile>

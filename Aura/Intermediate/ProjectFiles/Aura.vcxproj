@@ -275,10 +275,18 @@
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <ClInclude Include="..\..\Source\Aura\AbilitySystem\AuraAbilitySystemComponent.h"/>
+    <ClCompile Include="..\..\Source\Aura\AbilitySystem\AuraAbilitySystemLibrary.cpp">
+      <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Aura\AbilitySystem\AuraAbilitySystemLibrary.h"/>
     <ClCompile Include="..\..\Source\Aura\AbilitySystem\AuraAttributeSet.cpp">
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <ClInclude Include="..\..\Source\Aura\AbilitySystem\AuraAttributeSet.h"/>
+    <ClCompile Include="..\..\Source\Aura\AbilitySystem\Data\AuraAttributeInfo.cpp">
+      <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Aura\AbilitySystem\Data\AuraAttributeInfo.h"/>
     <ClCompile Include="..\..\Source\Aura\AbilitySystem\MMC\MMC_MaxHealth.cpp">
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
@@ -331,6 +339,10 @@
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <ClInclude Include="..\..\Source\Aura\UI\Widget\AuraUserWidget.h"/>
+    <ClCompile Include="..\..\Source\Aura\UI\WidgetController\AttributeMenuWidgetController.cpp">
+      <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Aura\UI\WidgetController\AttributeMenuWidgetController.h"/>
     <ClCompile Include="..\..\Source\Aura\UI\WidgetController\AuraWidgetController.cpp">
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
