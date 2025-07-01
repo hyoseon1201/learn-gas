@@ -29,6 +29,7 @@ struct FWidgetControllerParams;
 
 // ********** Begin Class UAuraWidgetController ****************************************************
 #define FID_learn_gas_Aura_Source_Aura_UI_WidgetController_AuraWidgetController_h_38_RPC_WRAPPERS_NO_PURE_DECLS \
+	DECLARE_FUNCTION(execBroadcastInitialValues); \
 	DECLARE_FUNCTION(execSetWidgetControllerParams);
 
 

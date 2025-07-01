@@ -104,6 +104,35 @@ UScriptStruct* Z_Construct_UScriptStruct_FWidgetControllerParams()
 }
 // ********** End ScriptStruct FWidgetControllerParams *********************************************
 
+// ********** Begin Class UAuraWidgetController Function BroadcastInitialValues ********************
+struct Z_Construct_UFunction_UAuraWidgetController_BroadcastInitialValues_Statics
+{
+#if WITH_METADATA
+	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "UI/WidgetController/AuraWidgetController.h" },
+	};
+#endif // WITH_METADATA
+	static const UECodeGen_Private::FFunctionParams FuncParams;
+};
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UAuraWidgetController_BroadcastInitialValues_Statics::FuncParams = { { (UObject*(*)())Z_Construct_UClass_UAuraWidgetController, nullptr, "BroadcastInitialValues", nullptr, 0, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020400, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UAuraWidgetController_BroadcastInitialValues_Statics::Function_MetaDataParams), Z_Construct_UFunction_UAuraWidgetController_BroadcastInitialValues_Statics::Function_MetaDataParams)},  };
+UFunction* Z_Construct_UFunction_UAuraWidgetController_BroadcastInitialValues()
+{
+	static UFunction* ReturnFunction = nullptr;
+	if (!ReturnFunction)
+	{
+		UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_UAuraWidgetController_BroadcastInitialValues_Statics::FuncParams);
+	}
+	return ReturnFunction;
+}
+DEFINE_FUNCTION(UAuraWidgetController::execBroadcastInitialValues)
+{
+	P_FINISH;
+	P_NATIVE_BEGIN;
+	P_THIS->BroadcastInitialValues();
+	P_NATIVE_END;
+}
+// ********** End Class UAuraWidgetController Function BroadcastInitialValues **********************
+
 // ********** Begin Class UAuraWidgetController Function SetWidgetControllerParams *****************
 struct Z_Construct_UFunction_UAuraWidgetController_SetWidgetControllerParams_Statics
 {
@@ -154,6 +183,7 @@ void UAuraWidgetController::StaticRegisterNativesUAuraWidgetController()
 {
 	UClass* Class = UAuraWidgetController::StaticClass();
 	static const FNameNativePtrPair Funcs[] = {
+		{ "BroadcastInitialValues", &UAuraWidgetController::execBroadcastInitialValues },
 		{ "SetWidgetControllerParams", &UAuraWidgetController::execSetWidgetControllerParams },
 	};
 	FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
@@ -223,6 +253,7 @@ struct Z_Construct_UClass_UAuraWidgetController_Statics
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
+		{ &Z_Construct_UFunction_UAuraWidgetController_BroadcastInitialValues, "BroadcastInitialValues" }, // 102971225
 		{ &Z_Construct_UFunction_UAuraWidgetController_SetWidgetControllerParams, "SetWidgetControllerParams" }, // 3324546438
 	};
 	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
@@ -282,10 +313,10 @@ struct Z_CompiledInDeferFile_FID_learn_gas_Aura_Source_Aura_UI_WidgetController_
 		{ FWidgetControllerParams::StaticStruct, Z_Construct_UScriptStruct_FWidgetControllerParams_Statics::NewStructOps, TEXT("WidgetControllerParams"), &Z_Registration_Info_UScriptStruct_FWidgetControllerParams, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FWidgetControllerParams), 1460692632U) },
 	};
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UAuraWidgetController, UAuraWidgetController::StaticClass, TEXT("UAuraWidgetController"), &Z_Registration_Info_UClass_UAuraWidgetController, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UAuraWidgetController), 2623902929U) },
+		{ Z_Construct_UClass_UAuraWidgetController, UAuraWidgetController::StaticClass, TEXT("UAuraWidgetController"), &Z_Registration_Info_UClass_UAuraWidgetController, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UAuraWidgetController), 931678194U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_learn_gas_Aura_Source_Aura_UI_WidgetController_AuraWidgetController_h__Script_Aura_3325527563(TEXT("/Script/Aura"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_learn_gas_Aura_Source_Aura_UI_WidgetController_AuraWidgetController_h__Script_Aura_2532564791(TEXT("/Script/Aura"),
 	Z_CompiledInDeferFile_FID_learn_gas_Aura_Source_Aura_UI_WidgetController_AuraWidgetController_h__Script_Aura_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_learn_gas_Aura_Source_Aura_UI_WidgetController_AuraWidgetController_h__Script_Aura_Statics::ClassInfo),
 	Z_CompiledInDeferFile_FID_learn_gas_Aura_Source_Aura_UI_WidgetController_AuraWidgetController_h__Script_Aura_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_learn_gas_Aura_Source_Aura_UI_WidgetController_AuraWidgetController_h__Script_Aura_Statics::ScriptStructInfo),
 	nullptr, 0);

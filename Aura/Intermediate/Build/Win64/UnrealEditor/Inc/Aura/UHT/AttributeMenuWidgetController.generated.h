@@ -16,10 +16,19 @@
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
+struct FAuraAttributeDetails;
+
+// ********** Begin Delegate FAttributeInfoSignature ***********************************************
+#define FID_learn_gas_Aura_Source_Aura_UI_WidgetController_AttributeMenuWidgetController_h_13_DELEGATE \
+AURA_API void FAttributeInfoSignature_DelegateWrapper(const FMulticastScriptDelegate& AttributeInfoSignature, FAuraAttributeDetails const& Info);
+
+
+// ********** End Delegate FAttributeInfoSignature *************************************************
+
 // ********** Begin Class UAttributeMenuWidgetController *******************************************
 AURA_API UClass* Z_Construct_UClass_UAttributeMenuWidgetController_NoRegister();
 
-#define FID_learn_gas_Aura_Source_Aura_UI_WidgetController_AttributeMenuWidgetController_h_13_INCLASS_NO_PURE_DECLS \
+#define FID_learn_gas_Aura_Source_Aura_UI_WidgetController_AttributeMenuWidgetController_h_21_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUAttributeMenuWidgetController(); \
 	friend struct Z_Construct_UClass_UAttributeMenuWidgetController_Statics; \
@@ -30,7 +39,7 @@ public: \
 	DECLARE_SERIALIZER(UAttributeMenuWidgetController)
 
 
-#define FID_learn_gas_Aura_Source_Aura_UI_WidgetController_AttributeMenuWidgetController_h_13_ENHANCED_CONSTRUCTORS \
+#define FID_learn_gas_Aura_Source_Aura_UI_WidgetController_AttributeMenuWidgetController_h_21_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UAttributeMenuWidgetController(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	/** Deleted move- and copy-constructors, should never be used */ \
@@ -42,12 +51,12 @@ public: \
 	NO_API virtual ~UAttributeMenuWidgetController();
 
 
-#define FID_learn_gas_Aura_Source_Aura_UI_WidgetController_AttributeMenuWidgetController_h_10_PROLOG
-#define FID_learn_gas_Aura_Source_Aura_UI_WidgetController_AttributeMenuWidgetController_h_13_GENERATED_BODY \
+#define FID_learn_gas_Aura_Source_Aura_UI_WidgetController_AttributeMenuWidgetController_h_18_PROLOG
+#define FID_learn_gas_Aura_Source_Aura_UI_WidgetController_AttributeMenuWidgetController_h_21_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_learn_gas_Aura_Source_Aura_UI_WidgetController_AttributeMenuWidgetController_h_13_INCLASS_NO_PURE_DECLS \
-	FID_learn_gas_Aura_Source_Aura_UI_WidgetController_AttributeMenuWidgetController_h_13_ENHANCED_CONSTRUCTORS \
+	FID_learn_gas_Aura_Source_Aura_UI_WidgetController_AttributeMenuWidgetController_h_21_INCLASS_NO_PURE_DECLS \
+	FID_learn_gas_Aura_Source_Aura_UI_WidgetController_AttributeMenuWidgetController_h_21_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
