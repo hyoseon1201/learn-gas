@@ -96,7 +96,9 @@
             "e:\\ue_5.6\\engine\\source\\runtime\\moviescene\\public\\entitysystem\\relativeptr.h",
             "e:\\ue_5.6\\engine\\source\\runtime\\moviescene\\public\\evaluation\\moviescenepreanimatedstate.h",
             "e:\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\umg\\uht\\userwidget.generated.h",
-            "e:\\learn-gas\\aura\\intermediate\\build\\win64\\unrealeditor\\inc\\aura\\uht\\aurauserwidget.generated.h"
+            "e:\\learn-gas\\aura\\intermediate\\build\\win64\\unrealeditor\\inc\\aura\\uht\\aurauserwidget.generated.h",
+            "e:\\learn-gas\\aura\\source\\aura\\ui\\widgetcontroller\\attributemenuwidgetcontroller.h",
+            "e:\\learn-gas\\aura\\intermediate\\build\\win64\\unrealeditor\\inc\\aura\\uht\\attributemenuwidgetcontroller.generated.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

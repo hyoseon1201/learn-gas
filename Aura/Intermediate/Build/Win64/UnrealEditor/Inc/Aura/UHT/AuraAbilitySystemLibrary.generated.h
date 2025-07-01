@@ -16,17 +16,19 @@
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
+class UAttributeMenuWidgetController;
 class UObject;
 class UOverlayWidgetController;
 
 // ********** Begin Class UAuraAbilitySystemLibrary ************************************************
-#define FID_learn_gas_Aura_Source_Aura_AbilitySystem_AuraAbilitySystemLibrary_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_learn_gas_Aura_Source_Aura_AbilitySystem_AuraAbilitySystemLibrary_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+	DECLARE_FUNCTION(execGetAttributeMenuWidgetController); \
 	DECLARE_FUNCTION(execGetOverlayWidgetController);
 
 
 AURA_API UClass* Z_Construct_UClass_UAuraAbilitySystemLibrary_NoRegister();
 
-#define FID_learn_gas_Aura_Source_Aura_AbilitySystem_AuraAbilitySystemLibrary_h_15_INCLASS_NO_PURE_DECLS \
+#define FID_learn_gas_Aura_Source_Aura_AbilitySystem_AuraAbilitySystemLibrary_h_16_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUAuraAbilitySystemLibrary(); \
 	friend struct Z_Construct_UClass_UAuraAbilitySystemLibrary_Statics; \
@@ -37,7 +39,7 @@ public: \
 	DECLARE_SERIALIZER(UAuraAbilitySystemLibrary)
 
 
-#define FID_learn_gas_Aura_Source_Aura_AbilitySystem_AuraAbilitySystemLibrary_h_15_ENHANCED_CONSTRUCTORS \
+#define FID_learn_gas_Aura_Source_Aura_AbilitySystem_AuraAbilitySystemLibrary_h_16_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UAuraAbilitySystemLibrary(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	/** Deleted move- and copy-constructors, should never be used */ \
@@ -49,13 +51,13 @@ public: \
 	NO_API virtual ~UAuraAbilitySystemLibrary();
 
 
-#define FID_learn_gas_Aura_Source_Aura_AbilitySystem_AuraAbilitySystemLibrary_h_12_PROLOG
-#define FID_learn_gas_Aura_Source_Aura_AbilitySystem_AuraAbilitySystemLibrary_h_15_GENERATED_BODY \
+#define FID_learn_gas_Aura_Source_Aura_AbilitySystem_AuraAbilitySystemLibrary_h_13_PROLOG
+#define FID_learn_gas_Aura_Source_Aura_AbilitySystem_AuraAbilitySystemLibrary_h_16_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_learn_gas_Aura_Source_Aura_AbilitySystem_AuraAbilitySystemLibrary_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_learn_gas_Aura_Source_Aura_AbilitySystem_AuraAbilitySystemLibrary_h_15_INCLASS_NO_PURE_DECLS \
-	FID_learn_gas_Aura_Source_Aura_AbilitySystem_AuraAbilitySystemLibrary_h_15_ENHANCED_CONSTRUCTORS \
+	FID_learn_gas_Aura_Source_Aura_AbilitySystem_AuraAbilitySystemLibrary_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_learn_gas_Aura_Source_Aura_AbilitySystem_AuraAbilitySystemLibrary_h_16_INCLASS_NO_PURE_DECLS \
+	FID_learn_gas_Aura_Source_Aura_AbilitySystem_AuraAbilitySystemLibrary_h_16_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

@@ -40,6 +40,8 @@
 				"E:/learn-gas/Aura/Content/Blueprints/UI/Button/WBP_Button.uasset",
 				"E:/learn-gas/Aura/Content/Blueprints/UI/Button/WBP_WideButton.uasset",
 				"E:/learn-gas/Aura/Content/Blueprints/AbilitySystem/Data/DA_AttributeInfo.uasset",
+				"E:/learn-gas/Aura/Content/Blueprints/UI/WidgetController/BP_AttributeMenuWidgetController.uasset",
+				"E:/learn-gas/Aura/Content/Blueprints/UI/HUD/BP_AuraHUD.uasset",
 				"E:/learn-gas/Aura/Content/Blueprints/AbilitySystem/GameplayTag/DT_PrimaryAttributes.uasset",
 				"E:/learn-gas/Aura/Content/Blueprints/AbilitySystem/GameplayTag/DT_VitalAttributes.uasset",
 				"E:/learn-gas/Aura/Content/Blueprints/AbilitySystem/GameplayEffect/PrimaryAttribute/GE_AuraPrimaryAttributes.uasset",

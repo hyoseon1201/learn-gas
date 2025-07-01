@@ -55,10 +55,12 @@ struct Z_Construct_UClass_UAttributeMenuWidgetController_Statics
 {
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Class_MetaDataParams[] = {
+		{ "BlueprintType", "true" },
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n * \n */" },
 #endif
 		{ "IncludePath", "UI/WidgetController/AttributeMenuWidgetController.h" },
+		{ "IsBlueprintBase", "true" },
 		{ "ModuleRelativePath", "UI/WidgetController/AttributeMenuWidgetController.h" },
 	};
 #endif // WITH_METADATA
@@ -105,10 +107,10 @@ UAttributeMenuWidgetController::~UAttributeMenuWidgetController() {}
 struct Z_CompiledInDeferFile_FID_learn_gas_Aura_Source_Aura_UI_WidgetController_AttributeMenuWidgetController_h__Script_Aura_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UAttributeMenuWidgetController, UAttributeMenuWidgetController::StaticClass, TEXT("UAttributeMenuWidgetController"), &Z_Registration_Info_UClass_UAttributeMenuWidgetController, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UAttributeMenuWidgetController), 2879400763U) },
+		{ Z_Construct_UClass_UAttributeMenuWidgetController, UAttributeMenuWidgetController::StaticClass, TEXT("UAttributeMenuWidgetController"), &Z_Registration_Info_UClass_UAttributeMenuWidgetController, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UAttributeMenuWidgetController), 2669506228U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_learn_gas_Aura_Source_Aura_UI_WidgetController_AttributeMenuWidgetController_h__Script_Aura_1108731985(TEXT("/Script/Aura"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_learn_gas_Aura_Source_Aura_UI_WidgetController_AttributeMenuWidgetController_h__Script_Aura_1576337382(TEXT("/Script/Aura"),
 	Z_CompiledInDeferFile_FID_learn_gas_Aura_Source_Aura_UI_WidgetController_AttributeMenuWidgetController_h__Script_Aura_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_learn_gas_Aura_Source_Aura_UI_WidgetController_AttributeMenuWidgetController_h__Script_Aura_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
