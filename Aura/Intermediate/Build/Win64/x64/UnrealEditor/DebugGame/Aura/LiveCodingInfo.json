@@ -2,8 +2,12 @@
 	"RemapUnityFiles": 
 	{
 		"Module.Aura.cpp.obj": [
+			"AttributeMenuWidgetController.gen.cpp.obj",
+			"Aura.init.gen.cpp.obj",
 			"AuraAbilitySystemComponent.gen.cpp.obj",
+			"AuraAbilitySystemLibrary.gen.cpp.obj",
 			"AuraAssetManager.gen.cpp.obj",
+			"AuraAttributeInfo.gen.cpp.obj",
 			"AuraAttributeSet.gen.cpp.obj",
 			"AuraCharacter.gen.cpp.obj",
 			"AuraCharacterBase.gen.cpp.obj",
@@ -23,6 +27,7 @@
 			"PerModuleInline.gen.cpp.obj",
 			"AuraAbilitySystemComponent.cpp.obj",
 			"AuraAttributeSet.cpp.obj",
+			"AuraAttributeInfo.cpp.obj",
 			"MMC_MaxHealth.cpp.obj",
 			"MMC_MaxMana.cpp.obj",
 			"AuraEffectActor.cpp.obj",
@@ -37,17 +42,12 @@
 			"EnemyInterface.cpp.obj",
 			"AuraPlayerController.cpp.obj",
 			"AuraPlayerState.cpp.obj",
-			"AuraHUD.cpp.obj",
+			"AttributeMenuWidgetController.cpp.obj",
 			"AuraWidgetController.cpp.obj",
 			"OverlayWidgetController.cpp.obj",
 			"AuraUserWidget.cpp.obj",
-			"AttributeMenuWidgetController.gen.cpp.obj",
-			"Aura.init.gen.cpp.obj",
-			"AuraAbilitySystemLibrary.gen.cpp.obj",
-			"AuraAttributeInfo.gen.cpp.obj",
 			"AuraAbilitySystemLibrary.cpp.obj",
-			"AuraAttributeInfo.cpp.obj",
-			"AttributeMenuWidgetController.cpp.obj"
+			"AuraHUD.cpp.obj"
 		]
 	}
 }
