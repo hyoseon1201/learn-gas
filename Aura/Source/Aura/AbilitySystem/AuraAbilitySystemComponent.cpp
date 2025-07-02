@@ -12,8 +12,9 @@ void UAuraAbilitySystemComponent::AddCharacterAbilities(const TArray<TSubclassOf
 {
 	for (TSubclassOf<UGameplayAbility> AbilityClass : StartupAbilities)
 	{
-		const FGameplayAbilitySpec AbilitySpec = FGameplayAbilitySpec(AbilityClass, 1);
+		FGameplayAbilitySpec AbilitySpec = FGameplayAbilitySpec(AbilityClass, 1);
 		GiveAbility(AbilitySpec);
+		GiveAbilityAndActivateOnce(AbilitySpec);
 	}
 }
 
