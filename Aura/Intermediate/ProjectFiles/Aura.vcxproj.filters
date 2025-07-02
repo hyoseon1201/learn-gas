@@ -11,6 +11,7 @@
     <None Include="..\..\Source\AuraEditor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\.gitignore" />
     <None Include="..\..\.vsconfig" />
     <Filter Include="Config">
       <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
@@ -146,6 +147,15 @@
     </ClCompile>
     <ClInclude Include="..\..\Source\Aura\Game\AuraGameModeBase.h">
       <Filter>Source\Aura\Game</Filter>
+    </ClInclude>
+    <Filter Include="Source\Aura\Input">
+      <UniqueIdentifier>{2502BA79-F243-3338-8447-ED64DC21AF3F}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Aura\Input\AuraInputConfig.cpp">
+      <Filter>Source\Aura\Input</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Aura\Input\AuraInputConfig.h">
+      <Filter>Source\Aura\Input</Filter>
     </ClInclude>
     <Filter Include="Source\Aura\Interaction">
       <UniqueIdentifier>{BEA6B76F-F4B5-3637-9595-09E211017C0D}</UniqueIdentifier>
