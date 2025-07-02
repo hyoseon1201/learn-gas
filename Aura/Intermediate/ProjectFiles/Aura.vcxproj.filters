@@ -151,6 +151,12 @@
     <Filter Include="Source\Aura\Input">
       <UniqueIdentifier>{2502BA79-F243-3338-8447-ED64DC21AF3F}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\Aura\Input\AuraInputComponent.cpp">
+      <Filter>Source\Aura\Input</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Aura\Input\AuraInputComponent.h">
+      <Filter>Source\Aura\Input</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\Aura\Input\AuraInputConfig.cpp">
       <Filter>Source\Aura\Input</Filter>
     </ClCompile>
