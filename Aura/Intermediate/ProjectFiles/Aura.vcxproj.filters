@@ -118,6 +118,12 @@
     <ClInclude Include="..\..\Source\Aura\Actor\AuraEffectActor.h">
       <Filter>Source\Aura\Actor</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\Aura\Actor\AuraProjectile.cpp">
+      <Filter>Source\Aura\Actor</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Aura\Actor\AuraProjectile.h">
+      <Filter>Source\Aura\Actor</Filter>
+    </ClInclude>
     <Filter Include="Source\Aura\Character">
       <UniqueIdentifier>{29861108-78D7-382E-85DC-55497E6FC378}</UniqueIdentifier>
     </Filter>
