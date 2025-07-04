@@ -91,6 +91,15 @@
     <ClInclude Include="..\..\Source\Aura\AbilitySystem\Abilities\AuraProjectileSpell.h">
       <Filter>Source\Aura\AbilitySystem\Abilities</Filter>
     </ClInclude>
+    <Filter Include="Source\Aura\AbilitySystem\AbilityTask">
+      <UniqueIdentifier>{6CCFC140-7135-3788-A322-9A3F0CDDFC06}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Aura\AbilitySystem\AbilityTask\TargetDataUnderMouse.cpp">
+      <Filter>Source\Aura\AbilitySystem\AbilityTask</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Aura\AbilitySystem\AbilityTask\TargetDataUnderMouse.h">
+      <Filter>Source\Aura\AbilitySystem\AbilityTask</Filter>
+    </ClInclude>
     <Filter Include="Source\Aura\AbilitySystem\Data">
       <UniqueIdentifier>{0F93E64D-4324-3405-AF40-B9B21395DE8E}</UniqueIdentifier>
     </Filter>
