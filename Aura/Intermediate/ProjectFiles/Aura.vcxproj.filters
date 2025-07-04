@@ -85,6 +85,12 @@
     <ClInclude Include="..\..\Source\Aura\AbilitySystem\Abilities\AuraGameplayAbility.h">
       <Filter>Source\Aura\AbilitySystem\Abilities</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\Aura\AbilitySystem\Abilities\AuraProjectileSpell.cpp">
+      <Filter>Source\Aura\AbilitySystem\Abilities</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Aura\AbilitySystem\Abilities\AuraProjectileSpell.h">
+      <Filter>Source\Aura\AbilitySystem\Abilities</Filter>
+    </ClInclude>
     <Filter Include="Source\Aura\AbilitySystem\Data">
       <UniqueIdentifier>{0F93E64D-4324-3405-AF40-B9B21395DE8E}</UniqueIdentifier>
     </Filter>
