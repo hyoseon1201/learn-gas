@@ -109,6 +109,12 @@
     <ClInclude Include="..\..\Source\Aura\AbilitySystem\Data\AuraAttributeInfo.h">
       <Filter>Source\Aura\AbilitySystem\Data</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\Aura\AbilitySystem\Data\AuraCharacterClassInfo.cpp">
+      <Filter>Source\Aura\AbilitySystem\Data</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Aura\AbilitySystem\Data\AuraCharacterClassInfo.h">
+      <Filter>Source\Aura\AbilitySystem\Data</Filter>
+    </ClInclude>
     <Filter Include="Source\Aura\AbilitySystem\MMC">
       <UniqueIdentifier>{9CD938C5-0E41-3EEE-88DB-BA9DEC91C4B2}</UniqueIdentifier>
     </Filter>
