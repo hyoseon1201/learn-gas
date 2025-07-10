@@ -115,6 +115,15 @@
     <ClInclude Include="..\..\Source\Aura\AbilitySystem\Data\AuraCharacterClassInfo.h">
       <Filter>Source\Aura\AbilitySystem\Data</Filter>
     </ClInclude>
+    <Filter Include="Source\Aura\AbilitySystem\ExecCalc">
+      <UniqueIdentifier>{0FEFF261-13CC-33E3-83C7-421E40ADBF8F}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Aura\AbilitySystem\ExecCalc\ExecCalc_Damage.cpp">
+      <Filter>Source\Aura\AbilitySystem\ExecCalc</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Aura\AbilitySystem\ExecCalc\ExecCalc_Damage.h">
+      <Filter>Source\Aura\AbilitySystem\ExecCalc</Filter>
+    </ClInclude>
     <Filter Include="Source\Aura\AbilitySystem\MMC">
       <UniqueIdentifier>{9CD938C5-0E41-3EEE-88DB-BA9DEC91C4B2}</UniqueIdentifier>
     </Filter>
