@@ -241,6 +241,12 @@
     <ClInclude Include="..\..\Source\Aura\UI\Widget\AuraUserWidget.h">
       <Filter>Source\Aura\UI\Widget</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\Aura\UI\Widget\DamageTextComponent.cpp">
+      <Filter>Source\Aura\UI\Widget</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Aura\UI\Widget\DamageTextComponent.h">
+      <Filter>Source\Aura\UI\Widget</Filter>
+    </ClInclude>
     <Filter Include="Source\Aura\UI\WidgetController">
       <UniqueIdentifier>{9ABADDEC-4649-3AF2-91B0-90E8872658B6}</UniqueIdentifier>
     </Filter>
