@@ -264,6 +264,10 @@
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <ClInclude Include="..\..\Source\Aura\Aura.h"/>
+    <ClCompile Include="..\..\Source\Aura\AuraAbilityTypes.cpp">
+      <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Aura\AuraAbilityTypes.h"/>
     <ClCompile Include="..\..\Source\Aura\AuraAssetManager.cpp">
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
@@ -276,6 +280,10 @@
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <ClInclude Include="..\..\Source\Aura\AbilitySystem\AuraAbilitySystemComponent.h"/>
+    <ClCompile Include="..\..\Source\Aura\AbilitySystem\AuraAbilitySystemGlobals.cpp">
+      <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Aura\AbilitySystem\AuraAbilitySystemGlobals.h"/>
     <ClCompile Include="..\..\Source\Aura\AbilitySystem\AuraAbilitySystemLibrary.cpp">
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>

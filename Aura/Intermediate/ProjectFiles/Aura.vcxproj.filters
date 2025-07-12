@@ -43,6 +43,12 @@
     <ClInclude Include="..\..\Source\Aura\Aura.h">
       <Filter>Source\Aura</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\Aura\AuraAbilityTypes.cpp">
+      <Filter>Source\Aura</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Aura\AuraAbilityTypes.h">
+      <Filter>Source\Aura</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\Aura\AuraAssetManager.cpp">
       <Filter>Source\Aura</Filter>
     </ClCompile>
@@ -62,6 +68,12 @@
       <Filter>Source\Aura\AbilitySystem</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\Aura\AbilitySystem\AuraAbilitySystemComponent.h">
+      <Filter>Source\Aura\AbilitySystem</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Aura\AbilitySystem\AuraAbilitySystemGlobals.cpp">
+      <Filter>Source\Aura\AbilitySystem</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Aura\AbilitySystem\AuraAbilitySystemGlobals.h">
       <Filter>Source\Aura\AbilitySystem</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\Aura\AbilitySystem\AuraAbilitySystemLibrary.cpp">
