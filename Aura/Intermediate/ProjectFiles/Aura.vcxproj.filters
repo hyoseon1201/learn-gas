@@ -91,6 +91,12 @@
     <Filter Include="Source\Aura\AbilitySystem\Abilities">
       <UniqueIdentifier>{33849370-1F91-3D2D-9B96-7B73A4F4723C}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\Aura\AbilitySystem\Abilities\AuraDamageGameplayAbility.cpp">
+      <Filter>Source\Aura\AbilitySystem\Abilities</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Aura\AbilitySystem\Abilities\AuraDamageGameplayAbility.h">
+      <Filter>Source\Aura\AbilitySystem\Abilities</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\Aura\AbilitySystem\Abilities\AuraGameplayAbility.cpp">
       <Filter>Source\Aura\AbilitySystem\Abilities</Filter>
     </ClCompile>
