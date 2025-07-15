@@ -172,6 +172,15 @@
     <ClInclude Include="..\..\Source\Aura\Actor\AuraProjectile.h">
       <Filter>Source\Aura\Actor</Filter>
     </ClInclude>
+    <Filter Include="Source\Aura\AI">
+      <UniqueIdentifier>{2FD208C2-992A-38A2-B9BD-15EE7908A8BF}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Aura\AI\AuraAIController.cpp">
+      <Filter>Source\Aura\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Aura\AI\AuraAIController.h">
+      <Filter>Source\Aura\AI</Filter>
+    </ClInclude>
     <Filter Include="Source\Aura\Character">
       <UniqueIdentifier>{29861108-78D7-382E-85DC-55497E6FC378}</UniqueIdentifier>
     </Filter>
