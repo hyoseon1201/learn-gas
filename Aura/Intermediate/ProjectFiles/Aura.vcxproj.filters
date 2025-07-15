@@ -103,6 +103,12 @@
     <ClInclude Include="..\..\Source\Aura\AbilitySystem\Abilities\AuraGameplayAbility.h">
       <Filter>Source\Aura\AbilitySystem\Abilities</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\Aura\AbilitySystem\Abilities\AuraMeleeAttack.cpp">
+      <Filter>Source\Aura\AbilitySystem\Abilities</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Aura\AbilitySystem\Abilities\AuraMeleeAttack.h">
+      <Filter>Source\Aura\AbilitySystem\Abilities</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\Aura\AbilitySystem\Abilities\AuraProjectileSpell.cpp">
       <Filter>Source\Aura\AbilitySystem\Abilities</Filter>
     </ClCompile>
